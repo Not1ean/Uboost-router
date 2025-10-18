@@ -1,0 +1,14 @@
+config integration 'config'
+    option dpi_auto_enable '1'
+    option vpn_auto_configure '1'
+    option payment_check_interval '3600'
+
+config dpi 'zapret'
+    option enabled '0'
+    option youtube_blocking '1'
+    option status 'disabled'
+
+config vpn 'amneziawg'
+    option enabled '0'
+    option auto_start '1'
+    option status 'disabled'

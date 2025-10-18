@@ -1,0 +1,21 @@
+Source-Makefile: package/custom-theme/Makefile
+
+Package: custom-theme
+Version: 1.0-1
+Depends: +libc +luci-theme-argon
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Uboost Custom Theme
+Maintainer: Uboost Team <dev@uboost.com>
+Source: 
+License: MIT
+Type: ipkg
+Description:   Custom Uboost theme with branded colors and logos
+Uboost Team <dev@uboost.com>
+@@
+
+

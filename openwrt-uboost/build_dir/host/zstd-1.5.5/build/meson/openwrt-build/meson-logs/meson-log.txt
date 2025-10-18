@@ -1,0 +1,242 @@
+Build started at 2025-10-16T02:16:53.714260
+Main binary: /home/notlean/openwrt-uboost/staging_dir/host/bin/python3
+Build Options: -Ddefault_library=static -Dlegacy_level=7 -Ddebug_level=0 -Dbacktrace=disabled -Dstatic_runtime=false -Dbin_programs=true -Dbin_tests=false -Dbin_contrib=false -Dmulti_thread=enabled -Dzlib=disabled -Dlzma=disabled -Dlz4=disabled '--native-file /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/openwrt-native.txt'
+Python system: Linux
+The Meson build system
+Version: 0.61.5
+Source dir: /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson
+Build dir: /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build
+Build type: native build
+Program GetZstdLibraryVersion.py found: YES (/home/notlean/openwrt-uboost/staging_dir/host/bin/python3 /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/GetZstdLibraryVersion.py)
+Running command: /home/notlean/openwrt-uboost/staging_dir/host/bin/python3 /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/GetZstdLibraryVersion.py ../../lib/zstd.h
+--- stdout ---
+1.5.5
+
+--- stderr ---
+
+
+Project name: zstd
+Project version: 1.5.5
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc sanitycheckc.c -o sanitycheckc.exe -O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include -I/home/notlean/openwrt-uboost/staging_dir/host/include -D_FILE_OFFSET_BITS=64 -L/home/notlean/openwrt-uboost/staging_dir/host/lib
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/sanitycheckc.exe
+C compiler for the host machine: gcc (gcc 13.3.0 "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C linker for the host machine: gcc ld.bfd 2.42
+Sanity testing C++ compiler: g++
+Is cross compiler: False.
+Sanity check compiler command line: g++ sanitycheckcpp.cc -o sanitycheckcpp.exe -I/home/notlean/openwrt-uboost/staging_dir/host/include -D_FILE_OFFSET_BITS=64 -L/home/notlean/openwrt-uboost/staging_dir/host/lib
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: g++ (gcc 13.3.0 "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C++ linker for the host machine: g++ ld.bfd 2.42
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/sanitycheckc.exe
+C compiler for the build machine: gcc (gcc 13.3.0 "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C linker for the build machine: gcc ld.bfd 2.42
+Sanity testing C++ compiler: g++
+Is cross compiler: False.
+Sanity check compiler command line: g++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: g++ (gcc 13.3.0 "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C++ linker for the build machine: g++ ld.bfd 2.42
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpt072tc19
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpt072tc19/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpt072tc19/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Run-time dependency threads found: YES
+Dependency zlib skipped: feature zlib disabled
+Dependency liblzma skipped: feature lzma disabled
+Dependency liblz4 skipped: feature lz4 disabled
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpg0gaz1sd
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpg0gaz1sd/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpg0gaz1sd/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp9s1z_ysf
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp9s1z_ysf/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp9s1z_ysf/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpfum4u6th
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpfum4u6th/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpfum4u6th/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpzasamezy
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpzasamezy/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpzasamezy/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wcast-qual 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-qual: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp7lbhywau
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp7lbhywau/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp7lbhywau/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp2c301jky
+Command line:  g++ -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp2c301jky/testfile.cpp -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp2c301jky/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wundef 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmplohkj_48
+Command line:  g++ -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmplohkj_48/testfile.cpp -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmplohkj_48/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpikfl1w77
+Command line:  g++ -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpikfl1w77/testfile.cpp -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpikfl1w77/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wcast-align 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpsvgwy1ru
+Command line:  g++ -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpsvgwy1ru/testfile.cpp -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmpsvgwy1ru/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wcast-qual 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wcast-qual: YES 
+Message: Enable legacy support back to version 0.7
+Message: Enable multi-threading support
+Has header "execinfo.h" skipped: feature backtrace disabled
+Build targets in project: 3
+
+zstd 1.5.5
+
+  User defined options
+    Native files   : /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/openwrt-native.txt
+    default_library: static
+    backtrace      : disabled
+    bin_contrib    : false
+    bin_programs   : true
+    bin_tests      : false
+    debug_level    : 0
+    legacy_level   : 7
+    lz4            : disabled
+    lzma           : disabled
+    multi_thread   : enabled
+    static_runtime : false
+    zlib           : disabled
+
+Found ninja-1.11.1 at /home/notlean/openwrt-uboost/staging_dir/host/bin/ninja
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp6vej3gjp
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp6vej3gjp/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build/meson-private/tmp6vej3gjp/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/13/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/13/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/13/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

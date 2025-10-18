@@ -1,0 +1,9 @@
+# ninja log v5
+2	160	1760582675268413068	CMakeFiles/uclient-fetch.dir/progress.c.o	e76c2ffb59c94450
+1	163	1760582675271780460	CMakeFiles/uclient.dir/uclient-utils.c.o	6a1914b906de826f
+1	311	1760582675418413069	CMakeFiles/uclient.dir/uclient.c.o	82e7d2c3a0502cff
+2	466	1760582675574413070	CMakeFiles/uclient-fetch.dir/uclient-fetch.c.o	70d93a473916a980
+1	710	1760582675815413072	CMakeFiles/uclient.dir/uclient-http.c.o	c1dbe802041df74b
+710	735	1760582675843413072	libuclient.so	bf458930598bbdd6
+735	761	1760582675869413072	uclient-fetch	6803261c247d2a60
+1	10	0	CMakeFiles/install.util	158d8b61bf2839a7

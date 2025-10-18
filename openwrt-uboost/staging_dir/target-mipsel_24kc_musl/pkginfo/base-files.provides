@@ -1,0 +1,11 @@
+libblobmsg_json.so.20230523
+libc.so
+libfstools.so
+libgcc_s.so.1
+libjson-c.so.5
+libjson-c.so.5.2.0
+libnl-tiny.so.1
+libubox.so.20230523
+libubus.so.20230605
+libuci.so
+libvalidate.so

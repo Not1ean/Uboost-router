@@ -1,0 +1,13 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/zlib.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/zlibstatic.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/example.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/minigzip.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/example64.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/minigzip64.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/test.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/zlib-1.2.13/CMakeFiles/install/strip.dir

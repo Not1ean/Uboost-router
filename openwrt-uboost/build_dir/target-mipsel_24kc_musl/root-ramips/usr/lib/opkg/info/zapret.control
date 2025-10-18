@@ -1,0 +1,13 @@
+Package: zapret
+Version: 72.20250924
+Depends: libc, nftables, curl, gzip, zlib, coreutils, coreutils-sort, coreutils-sleep, kmod-nft-nat, kmod-nft-offload, kmod-nft-queue, libnetfilter-queue1, libcap
+Source: package/zapret
+SourceName: zapret
+License: MIT
+LicenseFiles: docs/LICENSE.txt
+Section: net
+SourceDateEpoch: 1760580457
+Maintainer: bol-van
+Architecture: mipsel_24kc
+Installed-Size: 194099
+Description:  Zapret DPI bypass system for OpenWRT

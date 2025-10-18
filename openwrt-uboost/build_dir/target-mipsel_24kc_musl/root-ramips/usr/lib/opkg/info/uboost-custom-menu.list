@@ -1,0 +1,4 @@
+/usr/share/luci/menu.d/uboost-network.json
+/usr/share/luci/menu.d/uboost-system.json
+/usr/share/luci/menu.d/uboost-status.json
+/usr/share/luci/menu.d/uboot.json

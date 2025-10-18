@@ -1,0 +1,6 @@
+# tests/atlocal.  Generated from atlocal.in by configure.                                     -*- shell-script -*-
+# Configurable variable values for tar test suite.
+# Copyright (C) 2004-2023 Free Software Foundation, Inc.
+
+PATH=/home/notlean/openwrt-uboost/build_dir/host/cpio-2.14/tests:/home/notlean/openwrt-uboost/build_dir/host/cpio-2.14/src:$top_srcdir:$srcdir:$PATH
+

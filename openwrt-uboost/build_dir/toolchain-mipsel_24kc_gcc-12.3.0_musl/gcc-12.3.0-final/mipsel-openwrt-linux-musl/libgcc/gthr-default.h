@@ -1,0 +1,1 @@
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/gthr-posix.h

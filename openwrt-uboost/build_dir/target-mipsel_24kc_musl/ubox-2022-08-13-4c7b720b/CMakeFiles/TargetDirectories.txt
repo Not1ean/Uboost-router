@@ -1,0 +1,13 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/getrandom.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/kmodloader.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/lsbloader.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/validate.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/validate_data.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/logd.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/logread.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ubox-2022-08-13-4c7b720b/CMakeFiles/install/strip.dir

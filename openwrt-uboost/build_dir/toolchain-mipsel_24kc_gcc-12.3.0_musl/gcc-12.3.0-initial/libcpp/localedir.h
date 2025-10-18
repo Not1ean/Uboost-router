@@ -1,0 +1,1 @@
+#define LOCALEDIR "/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/share/locale"

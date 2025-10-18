@@ -1,0 +1,9 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/liblucihttp.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/liblucihttp-lua.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/liblucihttp-ucode.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/lucihttp-2023-03-15-9b5b683f/CMakeFiles/install/strip.dir

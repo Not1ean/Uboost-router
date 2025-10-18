@@ -1,0 +1,7 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/jsonpath.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+/usr/include/libubox/uclient.h
+/usr/include/libubox/uclient-utils.h
+/usr/lib/libuclient.so
+/usr/bin/uclient-fetch

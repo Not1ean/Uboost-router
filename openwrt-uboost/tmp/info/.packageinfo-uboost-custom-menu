@@ -1,0 +1,21 @@
+Source-Makefile: package/uboost-custom-menu/Makefile
+
+Package: uboost-custom-menu
+Version: 1.0-1
+Depends: +libc +luci-base
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Uboost
+Repository: base
+Title: Uboost Custom Menu Configuration
+Maintainer: Uboost Team <dev@uboost.com>
+Source: 
+License: MIT
+Type: ipkg
+Description:   Complete menu customization for Uboost Router including API integration
+Uboost Team <dev@uboost.com>
+@@
+
+

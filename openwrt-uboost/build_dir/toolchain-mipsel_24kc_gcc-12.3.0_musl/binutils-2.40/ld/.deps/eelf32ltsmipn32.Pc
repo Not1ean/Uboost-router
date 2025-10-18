@@ -1,0 +1,1 @@
+eelf32ltsmipn32.c: ./emulparams/elf32ltsmipn32.sh ./emulparams/elf32btsmipn32.sh ./emulparams/elf32bmipn32-defs.sh ./scripttempl/elf.sc ./emultempl/elf.em ./emultempl/elf-generic.em ./emultempl/mipself.em ./emultempl/emulation.em

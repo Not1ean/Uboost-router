@@ -1,0 +1,60 @@
+_fixunsxfti.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/libgcc2.c \
+ ../.././gcc/tconfig.h ../.././gcc/auto-host.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/ansidecl.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/tsystem.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0-initial/gcc/include/stddef.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0-initial/gcc/include/float.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/filenames.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/hashtab.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/ansidecl.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/coretypes.h \
+ ../.././gcc/tm.h ../.././gcc/options.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/flag-types.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/mips-opts.h \
+ ../.././gcc/insn-constants.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/vxworks-dummy.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/dbxelf.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/elfos.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/gnu-user.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/linux.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/linux-android.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/glibc-stdint.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/mips.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/gnu-user.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/linux.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/linux-common.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/initfini-array.h \
+ ../.././gcc/insn-modes.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/defaults.h \
+ libgcc_tm.h
+../.././gcc/tconfig.h:
+../.././gcc/auto-host.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/ansidecl.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/tsystem.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0-initial/gcc/include/stddef.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0-initial/gcc/include/float.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/filenames.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/hashtab.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/ansidecl.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/coretypes.h:
+../.././gcc/tm.h:
+../.././gcc/options.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/flag-types.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/mips-opts.h:
+../.././gcc/insn-constants.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/vxworks-dummy.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/dbxelf.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/elfos.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/gnu-user.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/linux.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/linux-android.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/glibc-stdint.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/mips.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/gnu-user.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/linux.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/mips/linux-common.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/config/initfini-array.h:
+../.././gcc/insn-modes.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../gcc/defaults.h:
+libgcc_tm.h:

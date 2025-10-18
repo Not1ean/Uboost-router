@@ -1,0 +1,15 @@
+[binaries]
+c = ['gcc',]
+cpp = ['g++',]
+pkgconfig = '/home/notlean/openwrt-uboost/staging_dir/host/bin/pkg-config'
+cmake = '/home/notlean/openwrt-uboost/staging_dir/host/bin/cmake'
+python = '/home/notlean/openwrt-uboost/staging_dir/host/bin/python3'
+
+[built-in options]
+c_args = ['-O2', '-I/home/notlean/openwrt-uboost/staging_dir/host/include', '-I/home/notlean/openwrt-uboost/staging_dir/host/include',]
+c_link_args = ['-L/home/notlean/openwrt-uboost/staging_dir/host/lib',]
+cpp_args = ['-I/home/notlean/openwrt-uboost/staging_dir/host/include',]
+cpp_link_args = ['-L/home/notlean/openwrt-uboost/staging_dir/host/lib',]
+prefix = '/home/notlean/openwrt-uboost/staging_dir/host'
+sbindir = 'bin'
+libdir = 'lib'

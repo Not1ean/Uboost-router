@@ -1,0 +1,33 @@
+Hello.
+
+MiNor means Mikrotik Nor :-) because initially this project was done for Mirotik NOR flash systems.
+However, later I add support for NAND flash systems too.
+
+This program packs OpenWrt Linux Kernel to Mikrotik's version of yaffs2 file system which is used by the mikrotik's routerboot for booting.
+So you do not need to include yaffs2 support in the linux kernel any more.
+
+Currently supported flashes are:
+  NOR flash(yaffs2 without ecc):
+    Mikrotik rb941-2nd(hAP lite)
+    And maby(not tested yet) all new routerboards with this strings in description:
+      Storage type     FLASH
+      Storage size     16 MB
+  NAND flash(yaffs2 with ecc):
+    Mikrotik rb750 and rb751
+    And maby(not tested yet) all routerboards with NAND flash parameters like this:
+      Eraseblock size:                131072 bytes, 128.0 KiB
+      Minimum input/output unit size: 2048 bytes
+      OOB size:                       64 bytes
+  NAND flash(yaffs1 mode):
+    Mikrotik rb4xx
+    And maby(not tested yet) all routerboards with NAND flash parameters like this:
+      Eraseblock size:                16384 bytes, 16.0 KiB
+      Minimum input/output unit size: 512 bytes
+      OOB size:                       16 bytes
+
+You can write ready image in the following way:
+  NOR flash:
+    mtd write /tmp/openwrt-ar71xx-mikrotik-vmlinux-lzma.nor-tik-yaffs2 kernel
+  NAND flash:
+     flash_erase /dev/mtd1 0 0
+     nandwrite /dev/mtd1 -o /tmp/openwrt-ar71xx-mikrotik-vmlinux-lzma.nand-tik-yaffs2-2048b-ecc

@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+libdir="/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/nghttp2-1.57.0/lib"
+if [ -d "$libdir/.libs" ]; then
+    libdir="$libdir/.libs"
+fi
+
+export CGO_CFLAGS="-I/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/nghttp2-1.57.0/lib/includes -I/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/nghttp2-1.57.0/lib/includes "
+export CGO_CPPFLAGS=""
+export CGO_LDFLAGS="-L$libdir "
+export LD_LIBRARY_PATH="$libdir"
+export GODEBUG=cgocheck=0
+"$@"

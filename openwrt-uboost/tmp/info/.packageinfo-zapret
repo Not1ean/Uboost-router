@@ -1,0 +1,24 @@
+Source-Makefile: package/zapret/Makefile
+
+Package: zapret
+Submenu: Zapret
+Version: 72.20250924
+Depends: +libc +nftables +curl +gzip +zlib +coreutils +coreutils-sort +coreutils-sleep +kmod-nft-nat +kmod-nft-offload +kmod-nft-queue +libnetfilter-queue +libcap
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Zapret DPI bypass
+Maintainer: bol-van
+Source: zapret-72.20250924.tar.xz
+License: MIT
+LicenseFiles: docs/LICENSE.txt
+Type: ipkg
+Description: 	Zapret DPI bypass system for OpenWRT
+https://github.com/bol-van/zapret
+bol-van
+@@
+
+

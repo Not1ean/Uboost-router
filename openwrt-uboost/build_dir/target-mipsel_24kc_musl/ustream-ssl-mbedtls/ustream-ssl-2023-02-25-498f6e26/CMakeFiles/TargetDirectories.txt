@@ -1,0 +1,9 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/ustream-ssl.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/ustream-example-server.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/ustream-example-client.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ustream-ssl-mbedtls/ustream-ssl-2023-02-25-498f6e26/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+eelf64btsmip.c: ./emulparams/elf64btsmip.sh ./emulparams/elf64bmip-defs.sh ./emulparams/elf32bmipn32-defs.sh ./scripttempl/elf.sc ./emultempl/elf.em ./emultempl/elf-generic.em ./emultempl/mipself.em ./emultempl/emulation.em

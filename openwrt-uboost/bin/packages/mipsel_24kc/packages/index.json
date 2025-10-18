@@ -1,0 +1,1 @@
+{"architecture": "mipsel_24kc", "packages":{"cgi-io": "2022-08-10-901b0f04-21", "coreutils-sleep": "9.3-1", "coreutils-sort": "9.3-1", "coreutils": "9.3-1", "curl": "8.6.0-1", "gzip": "1.12-1", "libcurl4": "8.6.0-1", "libnetfilter-queue1": "1.0.5-4", "libnghttp2-14": "1.57.0-1"}}

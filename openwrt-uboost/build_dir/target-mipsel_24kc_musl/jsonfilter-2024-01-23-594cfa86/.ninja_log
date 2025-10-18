@@ -1,0 +1,12 @@
+# ninja log v5
+1	682	1760582665290888014	contrib/lemon	bffb88e9dd05a7cb
+1	682	1760582665290888014	/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/contrib/lemon	bffb88e9dd05a7cb
+683	686	1760582665296354195	parser.c	e55070aaec5f83db
+683	686	1760582665296354195	/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/jsonfilter-2024-01-23-594cfa86/parser.c	e55070aaec5f83db
+687	945	1760582665551413018	CMakeFiles/jsonpath.dir/main.c.o	d9005fe60568fdad
+945	1028	1760582665634413018	CMakeFiles/jsonpath.dir/ast.c.o	bf3f74094bb24ec1
+1028	1210	1760582665816789748	CMakeFiles/jsonpath.dir/lexer.c.o	b779f9ed6a980552
+1210	1417	1760582666021413020	CMakeFiles/jsonpath.dir/parser.c.o	5b00f61e322dec08
+1417	1585	1760582666189413021	CMakeFiles/jsonpath.dir/matcher.c.o	d7098414df11fece
+1585	1615	1760582666222446057	jsonpath	cad81f4a395893b
+1	10	0	CMakeFiles/install.util	dcf99fcf8bf196b2

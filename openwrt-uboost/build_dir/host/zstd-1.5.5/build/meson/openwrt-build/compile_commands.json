@@ -1,0 +1,272 @@
+[
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_entropy_common.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_entropy_common.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_entropy_common.c.o -c ../../../lib/common/entropy_common.c",
+    "file": "../../../lib/common/entropy_common.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_entropy_common.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_fse_decompress.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_fse_decompress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_fse_decompress.c.o -c ../../../lib/common/fse_decompress.c",
+    "file": "../../../lib/common/fse_decompress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_fse_decompress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_threading.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_threading.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_threading.c.o -c ../../../lib/common/threading.c",
+    "file": "../../../lib/common/threading.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_threading.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_pool.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_pool.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_pool.c.o -c ../../../lib/common/pool.c",
+    "file": "../../../lib/common/pool.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_pool.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_zstd_common.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_zstd_common.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_zstd_common.c.o -c ../../../lib/common/zstd_common.c",
+    "file": "../../../lib/common/zstd_common.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_zstd_common.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_error_private.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_error_private.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_error_private.c.o -c ../../../lib/common/error_private.c",
+    "file": "../../../lib/common/error_private.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_error_private.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_common_xxhash.c.o -MF lib/libzstd.a.p/.._.._.._lib_common_xxhash.c.o.d -o lib/libzstd.a.p/.._.._.._lib_common_xxhash.c.o -c ../../../lib/common/xxhash.c",
+    "file": "../../../lib/common/xxhash.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_common_xxhash.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_hist.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_hist.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_hist.c.o -c ../../../lib/compress/hist.c",
+    "file": "../../../lib/compress/hist.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_hist.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_fse_compress.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_fse_compress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_fse_compress.c.o -c ../../../lib/compress/fse_compress.c",
+    "file": "../../../lib/compress/fse_compress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_fse_compress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_huf_compress.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_huf_compress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_huf_compress.c.o -c ../../../lib/compress/huf_compress.c",
+    "file": "../../../lib/compress/huf_compress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_huf_compress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress.c.o -c ../../../lib/compress/zstd_compress.c",
+    "file": "../../../lib/compress/zstd_compress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_literals.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_literals.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_literals.c.o -c ../../../lib/compress/zstd_compress_literals.c",
+    "file": "../../../lib/compress/zstd_compress_literals.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_literals.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_sequences.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_sequences.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_sequences.c.o -c ../../../lib/compress/zstd_compress_sequences.c",
+    "file": "../../../lib/compress/zstd_compress_sequences.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_sequences.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_superblock.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_superblock.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_superblock.c.o -c ../../../lib/compress/zstd_compress_superblock.c",
+    "file": "../../../lib/compress/zstd_compress_superblock.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_compress_superblock.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstdmt_compress.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstdmt_compress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstdmt_compress.c.o -c ../../../lib/compress/zstdmt_compress.c",
+    "file": "../../../lib/compress/zstdmt_compress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstdmt_compress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_fast.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_fast.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_fast.c.o -c ../../../lib/compress/zstd_fast.c",
+    "file": "../../../lib/compress/zstd_fast.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_fast.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_double_fast.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_double_fast.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_double_fast.c.o -c ../../../lib/compress/zstd_double_fast.c",
+    "file": "../../../lib/compress/zstd_double_fast.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_double_fast.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_lazy.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_lazy.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_lazy.c.o -c ../../../lib/compress/zstd_lazy.c",
+    "file": "../../../lib/compress/zstd_lazy.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_lazy.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_opt.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_opt.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_opt.c.o -c ../../../lib/compress/zstd_opt.c",
+    "file": "../../../lib/compress/zstd_opt.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_opt.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_compress_zstd_ldm.c.o -MF lib/libzstd.a.p/.._.._.._lib_compress_zstd_ldm.c.o.d -o lib/libzstd.a.p/.._.._.._lib_compress_zstd_ldm.c.o -c ../../../lib/compress/zstd_ldm.c",
+    "file": "../../../lib/compress/zstd_ldm.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_compress_zstd_ldm.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress.c.o -MF lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress.c.o -c ../../../lib/decompress/huf_decompress.c",
+    "file": "../../../lib/decompress/huf_decompress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress.c.o -MF lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress.c.o.d -o lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress.c.o -c ../../../lib/decompress/zstd_decompress.c",
+    "file": "../../../lib/decompress/zstd_decompress.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress_block.c.o -MF lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress_block.c.o.d -o lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress_block.c.o -c ../../../lib/decompress/zstd_decompress_block.c",
+    "file": "../../../lib/decompress/zstd_decompress_block.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_decompress_zstd_decompress_block.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_decompress_zstd_ddict.c.o -MF lib/libzstd.a.p/.._.._.._lib_decompress_zstd_ddict.c.o.d -o lib/libzstd.a.p/.._.._.._lib_decompress_zstd_ddict.c.o -c ../../../lib/decompress/zstd_ddict.c",
+    "file": "../../../lib/decompress/zstd_ddict.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_decompress_zstd_ddict.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_dictBuilder_cover.c.o -MF lib/libzstd.a.p/.._.._.._lib_dictBuilder_cover.c.o.d -o lib/libzstd.a.p/.._.._.._lib_dictBuilder_cover.c.o -c ../../../lib/dictBuilder/cover.c",
+    "file": "../../../lib/dictBuilder/cover.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_dictBuilder_cover.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_dictBuilder_fastcover.c.o -MF lib/libzstd.a.p/.._.._.._lib_dictBuilder_fastcover.c.o.d -o lib/libzstd.a.p/.._.._.._lib_dictBuilder_fastcover.c.o -c ../../../lib/dictBuilder/fastcover.c",
+    "file": "../../../lib/dictBuilder/fastcover.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_dictBuilder_fastcover.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_dictBuilder_divsufsort.c.o -MF lib/libzstd.a.p/.._.._.._lib_dictBuilder_divsufsort.c.o.d -o lib/libzstd.a.p/.._.._.._lib_dictBuilder_divsufsort.c.o -c ../../../lib/dictBuilder/divsufsort.c",
+    "file": "../../../lib/dictBuilder/divsufsort.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_dictBuilder_divsufsort.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_dictBuilder_zdict.c.o -MF lib/libzstd.a.p/.._.._.._lib_dictBuilder_zdict.c.o.d -o lib/libzstd.a.p/.._.._.._lib_dictBuilder_zdict.c.o -c ../../../lib/dictBuilder/zdict.c",
+    "file": "../../../lib/dictBuilder/zdict.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_dictBuilder_zdict.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress_amd64.S.o -MF lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress_amd64.S.o.d -o lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress_amd64.S.o -c ../../../lib/decompress/huf_decompress_amd64.S",
+    "file": "../../../lib/decompress/huf_decompress_amd64.S",
+    "output": "lib/libzstd.a.p/.._.._.._lib_decompress_huf_decompress_amd64.S.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Ilib/libzstd.a.p -Ilib -I../lib -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -DZSTD_MULTITHREAD -O2 -fPIC -pthread -MD -MQ lib/libzstd.a.p/.._.._.._lib_legacy_zstd_v07.c.o -MF lib/libzstd.a.p/.._.._.._lib_legacy_zstd_v07.c.o.d -o lib/libzstd.a.p/.._.._.._lib_legacy_zstd_v07.c.o -c ../../../lib/legacy/zstd_v07.c",
+    "file": "../../../lib/legacy/zstd_v07.c",
+    "output": "lib/libzstd.a.p/.._.._.._lib_legacy_zstd_v07.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_zstdcli.c.o -MF programs/zstd.p/.._.._.._programs_zstdcli.c.o.d -o programs/zstd.p/.._.._.._programs_zstdcli.c.o -c ../../../programs/zstdcli.c",
+    "file": "../../../programs/zstdcli.c",
+    "output": "programs/zstd.p/.._.._.._programs_zstdcli.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_util.c.o -MF programs/zstd.p/.._.._.._programs_util.c.o.d -o programs/zstd.p/.._.._.._programs_util.c.o -c ../../../programs/util.c",
+    "file": "../../../programs/util.c",
+    "output": "programs/zstd.p/.._.._.._programs_util.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_timefn.c.o -MF programs/zstd.p/.._.._.._programs_timefn.c.o.d -o programs/zstd.p/.._.._.._programs_timefn.c.o -c ../../../programs/timefn.c",
+    "file": "../../../programs/timefn.c",
+    "output": "programs/zstd.p/.._.._.._programs_timefn.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_fileio.c.o -MF programs/zstd.p/.._.._.._programs_fileio.c.o.d -o programs/zstd.p/.._.._.._programs_fileio.c.o -c ../../../programs/fileio.c",
+    "file": "../../../programs/fileio.c",
+    "output": "programs/zstd.p/.._.._.._programs_fileio.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_fileio_asyncio.c.o -MF programs/zstd.p/.._.._.._programs_fileio_asyncio.c.o.d -o programs/zstd.p/.._.._.._programs_fileio_asyncio.c.o -c ../../../programs/fileio_asyncio.c",
+    "file": "../../../programs/fileio_asyncio.c",
+    "output": "programs/zstd.p/.._.._.._programs_fileio_asyncio.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_benchfn.c.o -MF programs/zstd.p/.._.._.._programs_benchfn.c.o.d -o programs/zstd.p/.._.._.._programs_benchfn.c.o -c ../../../programs/benchfn.c",
+    "file": "../../../programs/benchfn.c",
+    "output": "programs/zstd.p/.._.._.._programs_benchfn.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_benchzstd.c.o -MF programs/zstd.p/.._.._.._programs_benchzstd.c.o.d -o programs/zstd.p/.._.._.._programs_benchzstd.c.o -c ../../../programs/benchzstd.c",
+    "file": "../../../programs/benchzstd.c",
+    "output": "programs/zstd.p/.._.._.._programs_benchzstd.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_datagen.c.o -MF programs/zstd.p/.._.._.._programs_datagen.c.o.d -o programs/zstd.p/.._.._.._programs_datagen.c.o -c ../../../programs/datagen.c",
+    "file": "../../../programs/datagen.c",
+    "output": "programs/zstd.p/.._.._.._programs_datagen.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_dibio.c.o -MF programs/zstd.p/.._.._.._programs_dibio.c.o.d -o programs/zstd.p/.._.._.._programs_dibio.c.o -c ../../../programs/dibio.c",
+    "file": "../../../programs/dibio.c",
+    "output": "programs/zstd.p/.._.._.._programs_dibio.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_MULTITHREAD -DBACKTRACE_ENABLE=0 -MD -MQ programs/zstd.p/.._.._.._programs_zstdcli_trace.c.o -MF programs/zstd.p/.._.._.._programs_zstdcli_trace.c.o.d -o programs/zstd.p/.._.._.._programs_zstdcli_trace.c.o -c ../../../programs/zstdcli_trace.c",
+    "file": "../../../programs/zstdcli_trace.c",
+    "output": "programs/zstd.p/.._.._.._programs_zstdcli_trace.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd-frugal.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_NOBENCH -DZSTD_NODICT -DZSTD_NOTRACE -DZSTD_MULTITHREAD -MD -MQ programs/zstd-frugal.p/.._.._.._programs_zstdcli.c.o -MF programs/zstd-frugal.p/.._.._.._programs_zstdcli.c.o.d -o programs/zstd-frugal.p/.._.._.._programs_zstdcli.c.o -c ../../../programs/zstdcli.c",
+    "file": "../../../programs/zstdcli.c",
+    "output": "programs/zstd-frugal.p/.._.._.._programs_zstdcli.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd-frugal.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_NOBENCH -DZSTD_NODICT -DZSTD_NOTRACE -DZSTD_MULTITHREAD -MD -MQ programs/zstd-frugal.p/.._.._.._programs_timefn.c.o -MF programs/zstd-frugal.p/.._.._.._programs_timefn.c.o.d -o programs/zstd-frugal.p/.._.._.._programs_timefn.c.o -c ../../../programs/timefn.c",
+    "file": "../../../programs/timefn.c",
+    "output": "programs/zstd-frugal.p/.._.._.._programs_timefn.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd-frugal.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_NOBENCH -DZSTD_NODICT -DZSTD_NOTRACE -DZSTD_MULTITHREAD -MD -MQ programs/zstd-frugal.p/.._.._.._programs_util.c.o -MF programs/zstd-frugal.p/.._.._.._programs_util.c.o.d -o programs/zstd-frugal.p/.._.._.._programs_util.c.o -c ../../../programs/util.c",
+    "file": "../../../programs/util.c",
+    "output": "programs/zstd-frugal.p/.._.._.._programs_util.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd-frugal.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_NOBENCH -DZSTD_NODICT -DZSTD_NOTRACE -DZSTD_MULTITHREAD -MD -MQ programs/zstd-frugal.p/.._.._.._programs_fileio.c.o -MF programs/zstd-frugal.p/.._.._.._programs_fileio.c.o.d -o programs/zstd-frugal.p/.._.._.._programs_fileio.c.o -c ../../../programs/fileio.c",
+    "file": "../../../programs/fileio.c",
+    "output": "programs/zstd-frugal.p/.._.._.._programs_fileio.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build",
+    "command": "gcc -Iprograms/zstd-frugal.p -Iprograms -I../programs -I../../../lib -I../../../lib/common -I../../../lib/compress -I../../../lib/decompress -I../../../lib/dictBuilder -I../../../lib/legacy -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -O3 -DXXH_NAMESPACE=ZSTD_ -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DZSTD_LEGACY_SUPPORT=7 -O2 -pthread -DZSTD_NOBENCH -DZSTD_NODICT -DZSTD_NOTRACE -DZSTD_MULTITHREAD -MD -MQ programs/zstd-frugal.p/.._.._.._programs_fileio_asyncio.c.o -MF programs/zstd-frugal.p/.._.._.._programs_fileio_asyncio.c.o.d -o programs/zstd-frugal.p/.._.._.._programs_fileio_asyncio.c.o -c ../../../programs/fileio_asyncio.c",
+    "file": "../../../programs/fileio_asyncio.c",
+    "output": "programs/zstd-frugal.p/.._.._.._programs_fileio_asyncio.c.o"
+  }
+]

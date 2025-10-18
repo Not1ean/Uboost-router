@@ -1,0 +1,477 @@
+Build started at 2025-10-16T02:16:55.235744
+Main binary: /home/notlean/openwrt-uboost/staging_dir/host/bin/python3
+Build Options: -Ddefault_library=static -Dtests=disabled '--native-file /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-native.txt'
+Python system: Linux
+The Meson build system
+Version: 0.61.5
+Source dir: /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5
+Build dir: /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build
+Build type: native build
+Project name: pkgconf
+Project version: 1.9.5
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc sanitycheckc.c -o sanitycheckc.exe -O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include -I/home/notlean/openwrt-uboost/staging_dir/host/include -D_FILE_OFFSET_BITS=64 -L/home/notlean/openwrt-uboost/staging_dir/host/lib
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/sanitycheckc.exe
+C compiler for the host machine: gcc (gcc 13.3.0 "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C linker for the host machine: gcc ld.bfd 2.42
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/sanitycheckc.exe
+C compiler for the build machine: gcc (gcc 13.3.0 "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C linker for the build machine: gcc ld.bfd 2.42
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpszmvl2kc
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpszmvl2kc/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpszmvl2kc/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-function-declaration 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp97azwzn9
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp97azwzn9/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp97azwzn9/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -Wmisleading-indentation 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmisleading-indentation: YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpko5olp15
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpko5olp15/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpko5olp15/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <string.h>
+#include <limits.h>
+
+        #if defined __stub_strlcat || defined __stub___strlcat
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strlcat;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpko5olp15/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "strlcat" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpvgazij13
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpvgazij13/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpvgazij13/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <string.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef strlcat
+                strlcat;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpvgazij13/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <string.h> has symbol "strlcat" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpabajev1y
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpabajev1y/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpabajev1y/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <string.h>
+#include <limits.h>
+
+        #if defined __stub_strlcpy || defined __stub___strlcpy
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strlcpy;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpabajev1y/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "strlcpy" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpwg41jszq
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpwg41jszq/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpwg41jszq/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <string.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef strlcpy
+                strlcpy;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpwg41jszq/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <string.h> has symbol "strlcpy" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp1ep5tejv
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp1ep5tejv/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp1ep5tejv/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <string.h>
+#include <limits.h>
+
+        #if defined __stub_strndup || defined __stub___strndup
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strndup;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp1ep5tejv/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "strndup" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp6wyed_6z
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp6wyed_6z/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp6wyed_6z/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <string.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef strndup
+                strndup;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp6wyed_6z/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <string.h> has symbol "strndup" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpjmf0nc09
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpjmf0nc09/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpjmf0nc09/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <string.h>
+#include <limits.h>
+
+        #if defined __stub_strdup || defined __stub___strdup
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strdup;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpjmf0nc09/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "strdup" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmphx_al_8d
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmphx_al_8d/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmphx_al_8d/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <string.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef strdup
+                strdup;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/string.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmphx_al_8d/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <string.h> has symbol "strdup" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp12ewfbm_
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp12ewfbm_/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp12ewfbm_/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <strings.h>
+#include <limits.h>
+
+        #if defined __stub_strncasecmp || defined __stub___strncasecmp
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strncasecmp;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/strings.h:21,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp12ewfbm_/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "strncasecmp" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpkk77yqb_
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpkk77yqb_/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpkk77yqb_/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <strings.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef strncasecmp
+                strncasecmp;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/strings.h:21,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpkk77yqb_/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <strings.h> has symbol "strncasecmp" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpihv0dmq2
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpihv0dmq2/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpihv0dmq2/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <strings.h>
+#include <limits.h>
+
+        #if defined __stub_strcasecmp || defined __stub___strcasecmp
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strcasecmp;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/strings.h:21,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpihv0dmq2/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "strcasecmp" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpl4s4_jqg
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpl4s4_jqg/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpl4s4_jqg/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <strings.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef strcasecmp
+                strcasecmp;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/strings.h:21,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpl4s4_jqg/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <strings.h> has symbol "strcasecmp" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpq7r4djbh
+Command line:  gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpq7r4djbh/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpq7r4djbh/output.exe -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+#include <stdlib.h>
+#include <limits.h>
+
+        #if defined __stub_reallocarray || defined __stub___reallocarray
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &reallocarray;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpq7r4djbh/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Checking for function "reallocarray" : YES 
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpu4rwbgrx
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpu4rwbgrx/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpu4rwbgrx/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ #define _BSD_SOURCE
+        #include <stdlib.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef reallocarray
+                reallocarray;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmpu4rwbgrx/testfile.c:2:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+
+Header <stdlib.h> has symbol "reallocarray" : YES 
+Configuring config.h using configuration
+Program kyua skipped: feature tests disabled
+Program atf-sh skipped: feature tests disabled
+Configuring Kyuafile using configuration
+Configuring Kyuafile using configuration
+Configuring test_env.sh using configuration
+../../build_dir/host/pkgconf-1.9.5/tests/meson.build:2: WARNING: The variable(s) 'datarootdir', 'exec_prefix', 'prefix' in the input file 'tests/test_env.sh.in' are not present in the given configuration data.
+Build targets in project: 2
+
+pkgconf 1.9.5
+
+  User defined options
+    Native files   : /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-native.txt
+    default_library: static
+    tests          : disabled
+
+Found ninja-1.11.1 at /home/notlean/openwrt-uboost/staging_dir/host/bin/ninja
+Running compile:
+Working directory:  /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp9y9i4ede
+Command line:  gcc -I/home/notlean/openwrt-uboost/staging_dir/host/include /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp9y9i4ede/testfile.c -o /home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build/meson-private/tmp9y9i4ede/output.obj -c -O2 -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/13/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/13/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/13/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Failed to guess install tag for /home/notlean/openwrt-uboost/staging_dir/host/share/aclocal/pkg.m4
+Failed to guess install tag for /home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf/AUTHORS
+Failed to guess install tag for /home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf/README.md
+Failed to guess install tag for /home/notlean/openwrt-uboost/staging_dir/host/share/aclocal/pkg.m4
+Failed to guess install tag for /home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf/AUTHORS
+Failed to guess install tag for /home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf/README.md

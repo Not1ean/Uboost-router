@@ -1,0 +1,12 @@
+config uboot 'config'
+    option enabled '1'
+    option operation_mode 'standalone'
+    option api_secret 'DEFAULT_SECRET_CHANGE_IN_PRODUCTION'
+    option backend_url 'https://api.uboost.com/router-api/v1'
+    option auto_check_interval '3600'
+
+config status 'current'
+    option vpn_status 'unknown'
+    option subscription_status 'unknown'
+    option youtube_status 'disabled'
+    option last_check '0'

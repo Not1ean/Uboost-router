@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Initialize WiFi if no configuration exists
+if [ ! -s /etc/config/wireless ]; then
+    echo "Generating WiFi configuration..."
+    
+    # Generate basic wireless config
+    cat > /etc/config/wireless << 'EOF'
+config wifi-device 'radio0'
+    option type 'mac80211'
+    option channel 'auto'
+    option band '2g'
+    option htmode 'HT20'
+    option disabled '0'
+    option country 'RU'
+
+config wifi-iface 'default_radio0'
+    option device 'radio0'
+    option network 'lan'
+    option mode 'ap'
+    option ssid 'UBoost-WiFi'
+    option encryption 'psk2'
+    option key 'uboot12345678'
+EOF
+
+    # Commit changes
+    uci commit wireless
+fi
+
+exit 0

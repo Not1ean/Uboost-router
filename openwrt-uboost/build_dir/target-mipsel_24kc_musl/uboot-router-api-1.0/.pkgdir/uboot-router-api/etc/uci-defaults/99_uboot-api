@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# Инициализация конфигов uboot-router если не существуют
+if [ ! -s /etc/config/uboot-router ]; then
+    uci import uboot-router << 'EOR'
+config main 'uboot-router'
+    option router_id ''
+    option registered '0'
+    option model 'unknown'
+
+EOR
+    uci commit uboot-router
+fi
+
+# Инициализация конфигов uboot-vpn если не существуют
+if [ ! -s /etc/config/uboot-vpn ]; then
+    uci import uboot-vpn << 'EOV'
+config main 'uboot-vpn'  
+    option enabled '0'
+    option wg_private_key ''
+    option wg_public_key ''
+    option wg_address ''
+
+EOV
+    uci commit uboot-vpn
+fi
+
+# Убедимся что файлы созданы
+touch /etc/config/uboot-router
+touch /etc/config/uboot-vpn
+
+exit 0
