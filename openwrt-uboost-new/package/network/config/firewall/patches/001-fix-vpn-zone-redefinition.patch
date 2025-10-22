@@ -1,0 +1,28 @@
+--- a/firewall.config
++++ b/firewall.config
+@@ -15,24 +15,6 @@
+ 
+ config defaults
+ 	option syn_flood '1'
+-	option input 'ACCEPT'
+-	option output 'ACCEPT'
+-	option forward 'REJECT'
+-
+-config zone
+-	option name 'vpn'
+-	option input 'ACCEPT'
+-	option output 'ACCEPT'
+-	option forward 'ACCEPT'
+-	option masq '1'
+-	option mtu_fix '1'
+-
+-config forwarding
+-	option src 'vpn'
+-	option dest 'lan'
+-
+-config forwarding
+-	option src 'lan'
+-	option dest 'vpn'
++	option input 'REJECT'
++	option output 'REJECT'
++	option forward 'REJECT'

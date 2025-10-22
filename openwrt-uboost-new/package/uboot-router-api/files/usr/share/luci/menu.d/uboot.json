@@ -1,0 +1,16 @@
+{
+    "admin/uboot": {
+        "title": "UBoost", 
+        "order": 5,
+        "children": {
+            "admin/uboot/main": {
+                "title": "Dashboard",
+                "order": 1,
+                "action": {
+                    "type": "view",
+                    "path": "uboot/main"
+                }
+            }
+        }
+    }
+}

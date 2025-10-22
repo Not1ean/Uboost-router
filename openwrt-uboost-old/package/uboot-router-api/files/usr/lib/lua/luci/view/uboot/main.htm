@@ -1,0 +1,747 @@
+<%+header%>
+
+<div class="uboot-dashboard">
+    <!-- Нулевой модуль: Регистрация Роутера -->
+    <div class="cbi-section" id="registration-section">
+        <h3>Регистрация Роутера</h3>
+        <div id="registration-content">
+            <div class="cbi-value" id="email-input">
+                <label class="cbi-value-title">Email адрес</label>
+                <div class="cbi-value-field">
+                    <input type="email" id="register-email" placeholder="your@email.com" class="cbi-input-text">
+                    <button class="cbi-button cbi-button-apply" onclick="requestRegistration()">
+                        Получить код
+                    </button>
+                </div>
+            </div>
+            
+            <div class="cbi-value" id="terms-checkbox">
+                <label class="cbi-value-title"></label>
+                <div class="cbi-value-field">
+                    <input type="checkbox" id="agree-terms">
+                    <label for="agree-terms">
+                        Я согласен с Условиями использования и Политикой конфиденциальности
+                    </label>
+                    <a href="https://uboost.com/terms" target="_blank" class="cbi-button-link">Условия</a>
+                    <a href="https://uboost.com/privacy" target="_blank" class="cbi-button-link">Конфиденциальность</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cbi-value" id="otp-section" style="display:none">
+            <label class="cbi-value-title">Код подтверждения</label>
+            <div class="cbi-value-field">
+                <input type="text" id="otp-code" placeholder="Введите код из email" class="cbi-input-text" maxlength="6">
+                <button class="cbi-button cbi-button-action" onclick="confirmRegistration()">
+                    Подтвердить регистрацию
+                </button>
+                <button class="cbi-button cbi-button-reset" onclick="resendOTP()">
+                    Отправить код повторно
+                </button>
+            </div>
+            <div class="cbi-value-description">
+                Введите 6-значный код, отправленный на ваш email адрес. Код действителен в течение 30 минут.
+            </div>
+            
+            <!-- Блок статуса проверки -->
+            <div id="otp-status" style="display:none; margin-top: 10px;">
+                <div class="alert alert-success" id="otp-success" style="display:none">
+                    <strong>✓ Регистрация успешно завершена!</strong>
+                    <p>DPI (YouTube доступ) автоматически настроен и активирован.</p>
+                </div>
+                <div class="alert alert-error" id="otp-error" style="display:none">
+                    <strong>✗ Ошибка:</strong> <span id="otp-error-text"></span>
+                </div>
+                <div class="alert alert-warning" id="otp-loading" style="display:none">
+                    <strong>Проверка кода...</strong>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cbi-value" id="registered-banner" style="display:none">
+            <label class="cbi-value-title"></label>
+            <div class="cbi-value-field">
+                <div class="alert alert-success">
+                    <strong>✓ Роутер зарегистрирован</strong>
+                    <p>DPI (YouTube доступ) активен. Для доступа к VPN оформите подписку.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Первый модуль: Device Status -->
+    <div class="cbi-section">
+        <h3>Статус Устройства</h3>
+        <div class="cbi-value">
+            <label class="cbi-value-title">Router ID</label>
+            <div class="cbi-value-field">
+                <span id="router-id">-</span>
+            </div>
+        </div>
+        <div class="cbi-value">
+            <label class="cbi-value-title">Router Model</label>
+            <div class="cbi-value-field">
+                <span id="router-model">-</span>
+            </div>
+        </div>
+        <div class="cbi-value">
+            <label class="cbi-value-title">Internet Status</label>
+            <div class="cbi-value-field">
+                <span id="internet-status">-</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Второй модуль: Статус DPI (YouTube Access) -->
+    <div class="cbi-section">
+        <h3>YouTube доступ</h3>
+        <div class="cbi-value">
+            <label class="cbi-value-title">Состояние</label>
+            <div class="cbi-value-field">
+                <span id="dpi-status" class="status-indicator status-unknown">⚫ Не настроен</span>
+            </div>
+        </div>
+        <div class="cbi-value">
+            <label class="cbi-value-title">Описание</label>
+            <div class="cbi-value-field">
+                <div class="cbi-value-description">
+                    Доступ к Youtube в подарок при регистрации.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Третий модуль: VPN Access -->
+    <div class="cbi-section">
+        <h3>Доступ к VPN</h3>
+        
+        <!-- Статус подписки -->
+        <div class="cbi-value">
+            <label class="cbi-value-title">Статус подписки</label>
+            <div class="cbi-value-field">
+                <span id="vpn-subscription-status" class="status-indicator status-unknown">⚫ Неактивна</span>
+            </div>
+        </div>
+        
+        <!-- Блок для новых пользователей - подписка -->
+        <div class="cbi-value" id="vpn-subscription-block">
+            <label class="cbi-value-title">Получить доступ к VPN</label>
+            <div class="cbi-value-field">
+                <a href="https://uboost.com/pricing" target="_blank" class="cbi-button cbi-button-positive" id="vpn-subscribe-link">
+                    Оформить подписку
+                </a>
+                <div class="cbi-value-description">
+                    Получите полный доступ ко всем серверам VPN после оплаты подписки
+                </div>
+            </div>
+        </div>
+        
+        <!-- Блок для ввода ключа -->
+        <div class="cbi-value" id="vpn-key-block" style="display:none">
+            <label class="cbi-value-title">Активация ключа</label>
+            <div class="cbi-value-field">
+                <input type="text" id="vpn-key-input" placeholder="Введите ваш VPN ключ" class="cbi-input-text">
+                <button class="cbi-button cbi-button-action" onclick="activateVPN()">
+                    Активировать VPN
+                </button>
+                <button class="cbi-button cbi-button-help" onclick="showKeyHelp()">
+                    Где найти ключ?
+                </button>
+            </div>
+            <div class="cbi-value-description">
+                Введите ключ, полученный после оплаты подписки. Ключ приходит на email.
+            </div>
+        </div>
+        
+        <!-- Статус подключения VPN -->
+        <div class="cbi-value">
+            <label class="cbi-value-title">Подключение VPN</label>
+            <div class="cbi-value-field">
+                <span id="vpn-connection-status" class="status-indicator status-disconnected">🔴 Отключено</span>
+                <button class="cbi-button cbi-button-apply" id="vpn-toggle-btn" style="display:none" onclick="toggleVPNConnection()">
+                    Включить VPN
+                </button>
+            </div>
+        </div>
+        
+        <!-- Информация о подключении -->
+        <div class="cbi-value" id="vpn-info" style="display:none">
+            <label class="cbi-value-title">Информация о VPN</label>
+            <div class="cbi-value-field">
+                <div class="vpn-details">
+                    <div><strong>Сервер:</strong> <span id="vpn-server">-</span></div>
+                    <div><strong>Протокол:</strong> <span id="vpn-protocol">WireGuard</span></div>
+                    <div><strong>Скорость:</strong> <span id="vpn-speed">-</span></div>
+                    <div><strong>Время работы:</strong> <span id="vpn-uptime">-</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Четвертый модуль: Service Status -->
+    <div class="cbi-section">
+        <h3>Статус Служб</h3>
+        <div class="cbi-value">
+            <label class="cbi-value-title">Uboost Service</label>
+            <div class="cbi-value-field">
+                <span id="uboost-service-status" class="status-indicator">●</span>
+                <span id="uboost-service-text">-</span>
+            </div>
+        </div>
+        <div class="cbi-value">
+            <label class="cbi-value-title">VPN Service</label>
+            <div class="cbi-value-field">
+                <span id="vpn-service-status" class="status-indicator">●</span>
+                <span id="vpn-service-text">-</span>
+                <button class="cbi-button cbi-button-remove" id="vpn-service-toggle-btn" style="display:none" onclick="toggleVPNService()">
+                    Отключить
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Пятый модуль: Поддержка -->
+    <div class="cbi-section">
+        <h3>Техническая поддержка</h3>
+        <div class="cbi-value">
+            <label class="cbi-value-title"></label>
+            <div class="cbi-value-field">
+                <div class="support-info">
+                    <p>Если возникли трудности с настройкой и подключением, напишите в службу поддержки</p>
+                    <button class="cbi-button cbi-button-help" onclick="contactSupport()">
+                        💬 Мне нужна помощь
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно помощи -->
+<div id="key-help-modal" style="display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; max-width: 500px;">
+        <h3>Где найти VPN ключ?</h3>
+        <p>После успешной оплаты подписки:</p>
+        <ol>
+            <li>Проверьте вашу электронную почту</li>
+            <li>Найдите письмо от Uboost с темой "Ваш VPN ключ"</li>
+            <li>Скопируйте ключ из письма (обычно это длинная строка из букв и цифр)</li>
+            <li>Вставьте ключ в поле выше и нажмите "Активировать VPN"</li>
+        </ol>
+        <p>Если вы не получили ключ, проверьте папку "Спам" или <a href="https://uboost.com/support" target="_blank">свяжитесь с поддержкой</a>.</p>
+        <button class="cbi-button cbi-button-reset" onclick="hideKeyHelp()" style="margin-top: 15px;">Закрыть</button>
+    </div>
+</div>
+
+<!-- Модальное окно поддержки -->
+<div id="support-modal" style="display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; max-width: 500px;">
+        <h3>Служба поддержки</h3>
+        <p>Для получения помощи вы можете:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:support@uboost.com">support@uboost.com</a></li>
+            <li><strong>Телеграм:</strong> <a href="https://t.me/uboost_support" target="_blank">@uboost_support</a></li>
+            <li><strong>Сайт:</strong> <a href="https://uboost.com/support" target="_blank">uboost.com/support</a></li>
+        </ul>
+        <p>При обращении укажите ваш Router ID: <strong id="support-router-id">-</strong></p>
+        <div class="cbi-value-field">
+            <button class="cbi-button cbi-button-action" onclick="copyRouterId()">
+                📋 Скопировать Router ID
+            </button>
+            <button class="cbi-button cbi-button-reset" onclick="hideSupportModal()" style="margin-left: 10px;">
+                Закрыть
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+class UboostDashboard {
+    static async init() {
+        await this.loadStatus();
+        this.setupEventListeners();
+        this.startAutoRefresh();
+    }
+    
+    static async loadStatus() {
+        try {
+            this.showLoading(true);
+            const response = await fetch('<%=luci.dispatcher.build_url("admin/uboot/api/status")%>');
+            const data = await response.json();
+            
+            if (data.success) {
+                this.updateDashboard(data.data);
+            }
+        } catch (error) {
+            console.error('Status load error:', error);
+        } finally {
+            this.showLoading(false);
+        }
+    }
+    
+    static updateDashboard(data) {
+        // Обновляем регистрацию
+        this.updateRegistrationSection(data.registration);
+        
+        // Device Status
+        document.getElementById('router-id').textContent = data.router_id || 'Not registered';
+        document.getElementById('router-model').textContent = data.device_info?.model || 'Unknown';
+        document.getElementById('internet-status').textContent = data.internet_status || 'Unknown';
+        
+        // Обновляем Router ID для поддержки
+        document.getElementById('support-router-id').textContent = data.router_id || 'Not registered';
+        
+        // DPI Status (YouTube Access)
+        this.updateDPISection(data.dpi);
+        
+        // VPN Access  
+        this.updateVPNSection(data.vpn);
+        
+        // Service Status
+        this.updateServiceStatus(data.services);
+    }
+    
+    static updateRegistrationSection(registration) {
+        const isRegistered = registration?.status === 'completed';
+        
+        // Скрываем весь блок регистрации если роутер зарегистрирован
+        document.getElementById('registration-content').style.display = isRegistered ? 'none' : 'block';
+        document.getElementById('registered-banner').style.display = isRegistered ? 'block' : 'none';
+        document.getElementById('otp-section').style.display = 'none'; // Сбрасываем OTP секцию
+    }
+    
+    static updateDPISection(dpi) {
+        const dpiStatus = document.getElementById('dpi-status');
+        const statusMap = {
+            'enabled': {text: '🟢 Активен', class: 'status-active'},
+            'disabled': {text: '🔴 Отключен', class: 'status-error'},
+            'inactive': {text: '⚫ Не настроен', class: 'status-unknown'}
+        };
+
+        const status = statusMap[dpi?.status] || statusMap['inactive'];
+        dpiStatus.textContent = status.text;
+        dpiStatus.className = `status-indicator ${status.class}`;
+    }
+    
+    static updateVPNSection(vpn) {
+        const hasKey = vpn?.has_key;
+        const isActive = vpn?.status === 'active' || vpn?.status === 'connected';
+        
+        document.getElementById('vpn-subscription-block').style.display = hasKey ? 'none' : 'block';
+        document.getElementById('vpn-key-block').style.display = hasKey && !isActive ? 'block' : 'none';
+        
+        // Обновляем статус подключения VPN
+        const connectionStatus = document.getElementById('vpn-connection-status');
+        const statusMap = {
+            'connected': {text: '🟢 Подключено', class: 'status-active'},
+            'configured': {text: '🟡 Настроено', class: 'status-warning'},
+            'disabled': {text: '🔴 Отключено', class: 'status-error'},
+            'inactive': {text: '⚫ Неактивно', class: 'status-unknown'}
+        };
+
+        const status = statusMap[vpn?.status] || statusMap['inactive'];
+        connectionStatus.textContent = status.text;
+        connectionStatus.className = `status-indicator ${status.class}`;
+
+        // Показываем кнопку управления VPN если настроено
+        document.getElementById('vpn-toggle-btn').style.display = 
+            (vpn?.status === 'configured' || vpn?.status === 'connected') ? 'inline-block' : 'none';
+    }
+    
+    static updateServiceStatus(services) {
+        // Uboost service
+        const uboostActive = services?.uboost === 'active';
+        document.getElementById('uboost-service-status').className = 'status-indicator ' +
+            (uboostActive ? 'status-success' : 'status-error');
+        document.getElementById('uboost-service-text').textContent = uboostActive ? 'Active' : 'Inactive';
+        
+        // VPN service
+        const vpnActive = services?.vpn === 'active';
+        document.getElementById('vpn-service-status').className = 'status-indicator ' +
+            (vpnActive ? 'status-success' : 'status-error');
+        document.getElementById('vpn-service-text').textContent = vpnActive ? 'Active' : 'Inactive';
+        document.getElementById('vpn-service-toggle-btn').style.display = vpnActive ? 'inline-block' : 'none';
+        document.getElementById('vpn-service-toggle-btn').textContent = vpnActive ? 'Turn Off' : 'Turn On';
+    }
+    
+    static async requestRegistration(email) {
+        if (!document.getElementById('agree-terms').checked) {
+            this.showNotification('Пожалуйста, согласитесь с условиями использования', 'error');
+            return;
+        }
+        
+        this.showNotification('Отправка кода...', 'info');
+        
+        try {
+            const response = await fetch('<%=luci.dispatcher.build_url("admin/uboot/api/register")%>', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({email: email})
+            });
+            
+            const result = await response.json();
+            
+            if (result.success) {
+                // Скрываем поля email и соглашения, показываем OTP
+                document.getElementById('registration-content').style.display = 'none';
+                document.getElementById('otp-section').style.display = 'block';
+                this.showNotification('Код подтверждения отправлен на ваш email', 'success');
+            } else {
+                this.showNotification(result.error || 'Ошибка регистрации', 'error');
+            }
+        } catch (error) {
+            this.showNotification('Ошибка сети', 'error');
+        }
+    }
+
+    static async verifyOTP(email, otpCode) {
+        try {
+            const response = await fetch('<%=luci.dispatcher.build_url("admin/uboot/api/verify-otp")%>', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({email: email, otp_code: otpCode})
+            });
+            
+            const result = await response.json();
+            
+            if (result.success) {
+                // Включаем DPI автоматически после успешной регистрации
+                await this.enableDPI();
+                return {success: true, data: result.data};
+            } else {
+                return {success: false, error: result.error};
+            }
+        } catch (error) {
+            console.error('OTP verification error:', error);
+            return {success: false, error: 'Network error'};
+        }
+    }
+
+    static async enableDPI() {
+        try {
+            const response = await fetch('<%=luci.dispatcher.build_url("admin/uboot/api/enable-dpi")%>', {
+                method: 'POST'
+            });
+            return await response.json();
+        } catch (error) {
+            console.error('DPI enable error:', error);
+            return {success: false, error: 'DPI setup failed'};
+        }
+    }
+    
+    static showLoading(show) {
+        const buttons = document.querySelectorAll('.cbi-button');
+        buttons.forEach(btn => {
+            btn.disabled = show;
+            if (show) {
+                btn.classList.add('loading');
+            } else {
+                btn.classList.remove('loading');
+            }
+        });
+    }
+    
+    static showNotification(message, type = 'info') {
+        console.log(`${type.toUpperCase()}: ${message}`);
+    }
+    
+    static setupEventListeners() {
+        const emailInput = document.getElementById('register-email');
+        if (emailInput) {
+            emailInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    this.handleRegistration();
+                }
+            });
+        }
+    }
+    
+    static startAutoRefresh() {
+        setInterval(() => {
+            this.loadStatus();
+        }, 30000);
+    }
+    
+    static async handleRegistration() {
+        const email = document.getElementById('register-email')?.value;
+        if (!email || !this.validateEmail(email)) {
+            this.showNotification('Пожалуйста, введите корректный email', 'error');
+            return;
+        }
+        
+        await this.requestRegistration(email);
+    }
+    
+    static validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+}
+
+// Остальной JavaScript код остается таким же как в предыдущей версии
+// (VPNManager и глобальные функции)
+
+// Глобальные функции
+function requestRegistration() {
+    UboostDashboard.handleRegistration();
+}
+
+function confirmRegistration() {
+    const email = document.getElementById('register-email').value;
+    const otp = document.getElementById('otp-code').value.trim();
+    
+    if (!otp) {
+        showOtpError('Введите код подтверждения');
+        return;
+    }
+    
+    if (otp.length < 4) {
+        showOtpError('Код должен содержать не менее 4 символов');
+        return;
+    }
+    
+    showOtpLoading();
+    
+    UboostDashboard.verifyOTP(email, otp).then(result => {
+        if (result.success) {
+            showOtpSuccess();
+            setTimeout(() => {
+                UboostDashboard.loadStatus();
+            }, 2000);
+        } else {
+            showOtpError(result.error || 'Неверный код подтверждения');
+        }
+    });
+}
+
+function resendOTP() {
+    const email = document.getElementById('register-email').value;
+    
+    if (!email) {
+        showOtpError('Введите email адрес');
+        return;
+    }
+    
+    showOtpLoading();
+    
+    setTimeout(() => {
+        hideOtpStatus();
+        UboostDashboard.showNotification('Новый код отправлен на ваш email', 'info');
+        document.getElementById('otp-code').value = '';
+        document.getElementById('otp-code').focus();
+    }, 1000);
+}
+
+// Остальные функции остаются без изменений
+function activateVPN() {
+    const key = document.getElementById('vpn-key-input').value.trim();
+    VPNManager.activateVPN(key);
+}
+
+function toggleVPNConnection() {
+    VPNManager.toggleVPNConnection();
+}
+
+function toggleVPNService() {
+    console.log('Toggle VPN service');
+}
+
+function contactSupport() {
+    document.getElementById('support-modal').style.display = 'block';
+}
+
+function hideSupportModal() {
+    document.getElementById('support-modal').style.display = 'none';
+}
+
+function copyRouterId() {
+    const routerId = document.getElementById('support-router-id').textContent;
+    navigator.clipboard.writeText(routerId).then(() => {
+        UboostDashboard.showNotification('Router ID скопирован в буфер обмена', 'success');
+    });
+}
+
+function showKeyHelp() {
+    document.getElementById('key-help-modal').style.display = 'block';
+}
+
+function hideKeyHelp() {
+    document.getElementById('key-help-modal').style.display = 'none';
+}
+
+// Функции для управления статусом OTP
+function showOtpLoading() {
+    hideOtpStatus();
+    document.getElementById('otp-status').style.display = 'block';
+    document.getElementById('otp-loading').style.display = 'block';
+}
+
+function showOtpSuccess() {
+    hideOtpStatus();
+    document.getElementById('otp-status').style.display = 'block';
+    document.getElementById('otp-success').style.display = 'block';
+}
+
+function showOtpError(message) {
+    hideOtpStatus();
+    document.getElementById('otp-status').style.display = 'block';
+    document.getElementById('otp-error').style.display = 'block';
+    document.getElementById('otp-error-text').textContent = message;
+}
+
+function hideOtpStatus() {
+    document.getElementById('otp-status').style.display = 'none';
+    document.getElementById('otp-success').style.display = 'none';
+    document.getElementById('otp-error').style.display = 'none';
+    document.getElementById('otp-loading').style.display = 'none';
+}
+
+// Инициализация при загрузке
+document.addEventListener('DOMContentLoaded', function() {
+    UboostDashboard.init();
+    VPNManager.init();
+    
+    // Обработка Enter в полях
+    const otpInput = document.getElementById('otp-code');
+    if (otpInput) {
+        otpInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                confirmRegistration();
+            }
+        });
+    }
+    
+    const vpnKeyInput = document.getElementById('vpn-key-input');
+    if (vpnKeyInput) {
+        vpnKeyInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                activateVPN();
+            }
+        });
+    }
+    
+    // Закрытие модальных окон
+    document.getElementById('key-help-modal').addEventListener('click', function(e) {
+        if (e.target === this) hideKeyHelp();
+    });
+    
+    document.getElementById('support-modal').addEventListener('click', function(e) {
+        if (e.target === this) hideSupportModal();
+    });
+});
+</script>
+
+<style>
+.alert {
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.alert-error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+.alert-warning {
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    color: #8a6d3b;
+}
+
+.status-indicator {
+    display: inline-block;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.status-active { color: #28a745; }
+.status-warning { color: #ffc107; }
+.status-error { color: #dc3545; }
+.status-unknown { color: #6c757d; }
+.status-disconnected { color: #dc3545; }
+
+.vpn-details {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #007bff;
+}
+
+.vpn-details div {
+    margin: 5px 0;
+}
+
+.support-info {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid #17a2b8;
+}
+
+.support-info p {
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+.cbi-button-link {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.cbi-button-link:hover {
+    text-decoration: underline;
+}
+
+.cbi-button-reset {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.cbi-button-reset:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.cbi-button-help {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.cbi-button-help:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+#key-help-modal ol, #support-modal ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+#key-help-modal li, #support-modal li {
+    margin: 5px 0;
+}
+
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#support-modal a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#support-modal a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<%+footer%>

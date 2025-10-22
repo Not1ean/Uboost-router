@@ -1,0 +1,30 @@
+{
+    "admin": {
+        "status": {
+            "overview": {
+                "title": "Обзор",
+                "order": 1,
+                "action": {
+                    "type": "view",
+                    "path": "status/overview"
+                }
+            },
+            "routes": {
+                "title": "Маршрутизация",
+                "order": 2,
+                "action": {
+                    "type": "view",
+                    "path": "status/routes"
+                }
+            },
+            "realtime": {
+                "title": "Мониторинг",
+                "order": 3,
+                "action": {
+                    "type": "view",
+                    "path": "status/realtime"
+                }
+            }
+        }
+    }
+}
