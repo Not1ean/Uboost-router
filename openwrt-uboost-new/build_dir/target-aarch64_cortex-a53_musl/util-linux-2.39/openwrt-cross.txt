@@ -1,0 +1,25 @@
+[binaries]
+c = ['aarch64-openwrt-linux-musl-gcc',]
+cpp = ['aarch64-openwrt-linux-musl-g++',]
+ar = 'aarch64-openwrt-linux-musl-gcc-ar'
+strip = 'aarch64-openwrt-linux-musl-strip'
+nm = 'aarch64-openwrt-linux-musl-gcc-nm'
+pkgconfig = '/home/notlean/openwrt-uboost/staging_dir/host/bin/pkg-config'
+cmake = '/home/notlean/openwrt-uboost/staging_dir/host/bin/cmake'
+python = '/home/notlean/openwrt-uboost/staging_dir/host/bin/python3'
+
+[built-in options]
+c_args = ['-Os', '-pipe', '-mcpu=cortex-a53', '-fno-caller-saves', '-fno-plt', '-fhonour-copts', '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39=util-linux-2.39', '-Wformat', '-Werror=format-security', '-fstack-protector', '-D_FORTIFY_SOURCE=1', '-Wl,-z,now', '-Wl,-z,relro', '-I/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/include', '-I/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include/fortify', '-I/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include',]
+c_link_args = ['-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib', '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib', '-znow', '-zrelro',]
+cpp_args = ['-Os', '-pipe', '-mcpu=cortex-a53', '-fno-caller-saves', '-fno-plt', '-fhonour-copts', '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39=util-linux-2.39', '-Wformat', '-Werror=format-security', '-fstack-protector', '-D_FORTIFY_SOURCE=1', '-Wl,-z,now', '-Wl,-z,relro', '-I/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/include', '-I/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include/fortify', '-I/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include',]
+cpp_link_args = ['-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib', '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib', '-znow', '-zrelro',]
+prefix = '/usr'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'generic'
+endian = 'little'
+
+[properties]
+needs_exe_wrapper = true

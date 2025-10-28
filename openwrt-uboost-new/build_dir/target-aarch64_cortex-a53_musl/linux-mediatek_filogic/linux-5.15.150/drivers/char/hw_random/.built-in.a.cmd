@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.a := echo >/dev/null; rm -f drivers/char/hw_random/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/char/hw_random/built-in.a drivers/char/hw_random/core.o drivers/char/hw_random/mtk-rng.o

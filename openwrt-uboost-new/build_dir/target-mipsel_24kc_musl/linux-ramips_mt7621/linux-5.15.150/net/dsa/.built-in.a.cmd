@@ -1,0 +1,1 @@
+cmd_net/dsa/built-in.a := echo >/dev/null; rm -f net/dsa/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST net/dsa/built-in.a net/dsa/dsa.o net/dsa/dsa2.o net/dsa/master.o net/dsa/port.o net/dsa/slave.o net/dsa/switch.o net/dsa/tag_8021q.o net/dsa/tag_mtk.o

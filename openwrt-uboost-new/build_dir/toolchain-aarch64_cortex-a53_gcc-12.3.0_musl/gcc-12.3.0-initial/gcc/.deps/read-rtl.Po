@@ -1,0 +1,155 @@
+read-rtl.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/read-rtl.cc \
+ config.h auto-host.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/system.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/safe-ctype.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/filenames.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/hashtab.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h \
+ /home/notlean/openwrt-uboost/staging_dir/host/include/gmp.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/libiberty.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hwint.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/coretypes.h \
+ insn-modes.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/signop.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/wide-int.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/wide-int-print.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/poly-int.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/poly-int-types.h \
+ insn-modes-inline.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/machmode.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/mode-classes.def \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/double-int.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/align.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/iterator-utils.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/real.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/fixed-value.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-table.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/statistics.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/ggc.h \
+ gtype-desc.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/vec.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/hashtab.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/inchash.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/mem-stats-traits.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-traits.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-map-traits.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/mem-stats.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-map.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-set.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/input.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../libcpp/include/line-map.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/is-a.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/memory-block.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/dumpfile.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/profile-count.h \
+ tm.h options.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/flag-types.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-opts.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-cores.def \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-arches.def \
+ insn-constants.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/biarchlp64.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/dbxelf.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/elfos.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/gnu-user.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/linux.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/glibc-stdint.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-elf.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-errata.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-linux.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/initfini-array.h \
+ insn-flags.h insn-modes.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/defaults.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/rtl.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hard-reg-set.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/array-traits.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/rtl.def \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/reg-notes.def \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/insn-notes.def \
+ genrtl.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/statistics.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/obstack.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/read-md.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/gensupport.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/optabs.def
+config.h:
+auto-host.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/system.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/safe-ctype.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/filenames.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/hashtab.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h:
+/home/notlean/openwrt-uboost/staging_dir/host/include/gmp.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/libiberty.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hwint.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/coretypes.h:
+insn-modes.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/signop.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/wide-int.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/wide-int-print.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/poly-int.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/poly-int-types.h:
+insn-modes-inline.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/machmode.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/mode-classes.def:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/double-int.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/align.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/iterator-utils.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/real.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/fixed-value.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-table.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/statistics.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/ggc.h:
+gtype-desc.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/vec.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/hashtab.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/inchash.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/mem-stats-traits.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-traits.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-map-traits.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/mem-stats.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-map.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hash-set.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/input.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../libcpp/include/line-map.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/is-a.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/memory-block.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/dumpfile.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/profile-count.h:
+tm.h:
+options.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/flag-types.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-opts.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-cores.def:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-arches.def:
+insn-constants.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/biarchlp64.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/dbxelf.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/elfos.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/gnu-user.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/linux.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/glibc-stdint.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-elf.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-errata.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/aarch64/aarch64-linux.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/config/initfini-array.h:
+insn-flags.h:
+insn-modes.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/defaults.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/rtl.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hard-reg-set.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/array-traits.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/rtl.def:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/reg-notes.def:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/insn-notes.def:
+genrtl.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/statistics.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/obstack.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/read-md.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/gensupport.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/optabs.def:

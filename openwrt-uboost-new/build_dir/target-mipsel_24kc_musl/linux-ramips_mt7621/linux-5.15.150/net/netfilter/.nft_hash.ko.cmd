@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_hash.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_hash.ko net/netfilter/nft_hash.o net/netfilter/nft_hash.mod.o;  make -f ./arch/mips/Makefile.postlink net/netfilter/nft_hash.ko

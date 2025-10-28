@@ -1,0 +1,4 @@
+# ninja log v5
+1	387	1760585400886491797	CMakeFiles/rpcd-mod-rrdns.dir/rrdns.c.o	96fedd56f5b3661a
+388	422	1760585400918491733	rrdns.so	1949b32dda701aec
+4	14	0	CMakeFiles/install.util	125a5a91a8e0d0d8

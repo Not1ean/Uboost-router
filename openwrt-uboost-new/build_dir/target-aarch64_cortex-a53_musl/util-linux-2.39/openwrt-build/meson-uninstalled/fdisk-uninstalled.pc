@@ -1,0 +1,11 @@
+prefix=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39/openwrt-build
+srcdir=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: fdisk
+Description: fdisk library
+Version: 2.39.0
+Requires.private: blkid, uuid
+Libs: -L${prefix}/libfdisk -lfdisk
+Cflags: -I${prefix}/libfdisk -I${srcdir}/libfdisk

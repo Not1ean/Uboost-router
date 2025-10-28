@@ -1,0 +1,1 @@
+cmd_net/netfilter/x_tables.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/x_tables.ko net/netfilter/x_tables.o net/netfilter/x_tables.mod.o;  true

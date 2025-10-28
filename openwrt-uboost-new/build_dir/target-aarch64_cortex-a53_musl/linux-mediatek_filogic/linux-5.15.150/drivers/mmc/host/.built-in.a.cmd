@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.a := echo >/dev/null; rm -f drivers/mmc/host/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/mmc/host/built-in.a drivers/mmc/host/mtk-sd.o drivers/mmc/host/cqhci-core.o

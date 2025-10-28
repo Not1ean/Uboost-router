@@ -1,0 +1,23 @@
+sort.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/sort.cc \
+ config.h auto-host.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/system.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/safe-ctype.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/filenames.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/hashtab.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h \
+ /home/notlean/openwrt-uboost/staging_dir/host/include/gmp.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/libiberty.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hwint.h
+config.h:
+auto-host.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/system.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/safe-ctype.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/filenames.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/hashtab.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h:
+/home/notlean/openwrt-uboost/staging_dir/host/include/gmp.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/libiberty.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/gcc/hwint.h:

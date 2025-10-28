@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.a := echo >/dev/null; rm -f drivers/clocksource/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/clocksource/built-in.a drivers/clocksource/timer-of.o drivers/clocksource/timer-probe.o drivers/clocksource/mips-gic-timer.o

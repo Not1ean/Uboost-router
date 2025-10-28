@@ -1,0 +1,11 @@
+Package: luci-theme-argon
+Version: 2.4.3
+Depends: libc, wget, jsonfilter
+Source: package/feeds/luci/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1760580457
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1893369
+Description:  Argon Theme

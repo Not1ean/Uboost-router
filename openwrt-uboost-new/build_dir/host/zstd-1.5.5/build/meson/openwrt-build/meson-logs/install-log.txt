@@ -1,0 +1,14 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/home/notlean/openwrt-uboost/staging_dir/host/lib/libzstd.a
+/home/notlean/openwrt-uboost/staging_dir/host/bin/zstd
+/home/notlean/openwrt-uboost/staging_dir/host/bin/zstd-frugal
+/home/notlean/openwrt-uboost/staging_dir/host/include/zstd.h
+/home/notlean/openwrt-uboost/staging_dir/host/include/zdict.h
+/home/notlean/openwrt-uboost/staging_dir/host/include/zstd_errors.h
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man1/zstd.1
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man1/zstdgrep.1
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man1/zstdless.1
+/home/notlean/openwrt-uboost/staging_dir/host/lib/pkgconfig/libzstd.pc
+/home/notlean/openwrt-uboost/staging_dir/host/bin/zstdgrep
+/home/notlean/openwrt-uboost/staging_dir/host/bin/zstdless

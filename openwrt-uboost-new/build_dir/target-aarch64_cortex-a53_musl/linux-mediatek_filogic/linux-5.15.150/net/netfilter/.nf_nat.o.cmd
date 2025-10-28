@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat.o := aarch64-openwrt-linux-musl-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/netfilter/nf_nat.o net/netfilter/nf_nat_core.o net/netfilter/nf_nat_proto.o net/netfilter/nf_nat_helper.o net/netfilter/nf_nat_redirect.o net/netfilter/nf_nat_masquerade.o

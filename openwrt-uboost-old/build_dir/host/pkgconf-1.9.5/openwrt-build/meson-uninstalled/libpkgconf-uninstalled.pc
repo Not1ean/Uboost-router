@@ -1,0 +1,11 @@
+prefix=/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build
+srcdir=/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpkgconf
+Description: a library for accessing and manipulating development framework configuration
+URL: http://github.com/pkgconf/pkgconf
+Version: 1.9.5
+Libs: -L${prefix} -lpkgconf
+Cflags: -I${prefix} -I${srcdir} -DPKGCONFIG_IS_STATIC

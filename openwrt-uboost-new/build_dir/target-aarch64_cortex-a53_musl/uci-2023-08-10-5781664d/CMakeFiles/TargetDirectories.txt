@@ -1,0 +1,17 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/uci.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/uci-static.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/cli.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/ucimap.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/CMakeFiles/install/strip.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/uci_lua.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uci-2023-08-10-5781664d/lua/CMakeFiles/install/strip.dir

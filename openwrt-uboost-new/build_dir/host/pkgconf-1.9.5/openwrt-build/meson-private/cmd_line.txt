@@ -1,0 +1,7 @@
+[options]
+default_library = static
+tests = disabled
+
+[properties]
+native_file = ['/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-native.txt']
+

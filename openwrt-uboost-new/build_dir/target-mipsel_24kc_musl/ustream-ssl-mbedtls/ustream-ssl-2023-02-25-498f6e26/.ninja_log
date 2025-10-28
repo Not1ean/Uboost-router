@@ -1,0 +1,9 @@
+# ninja log v5
+35	186	1760584664775198220	CMakeFiles/ustream-example-client.dir/ustream-example-client.c.o	cf3d247c16872776
+24	198	1760584664788379330	CMakeFiles/ustream-example-server.dir/ustream-example-server.c.o	3a9511ba881e0ae1
+2	215	1760584664805198136	CMakeFiles/ustream-ssl.dir/ustream-ssl.c.o	b07b2d44aa854434
+4	276	1760584664866582457	CMakeFiles/ustream-ssl.dir/ustream-mbedtls.c.o	e1a256b0d5f1adc1
+276	297	1760584664887197904	libustream-ssl.so	61c84b049d57c2c3
+297	316	1760584664906197851	ustream-example-server	e690223e5f289323
+298	316	1760584664907376834	ustream-example-client	7520cd3452a1a3ef
+2	11	0	CMakeFiles/install.util	fbb7aaeb3359c8c4

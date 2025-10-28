@@ -1,0 +1,1 @@
+cmd_net/ipv6/ip6_udp_tunnel.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv6/ip6_udp_tunnel.ko net/ipv6/ip6_udp_tunnel.o net/ipv6/ip6_udp_tunnel.mod.o;  true

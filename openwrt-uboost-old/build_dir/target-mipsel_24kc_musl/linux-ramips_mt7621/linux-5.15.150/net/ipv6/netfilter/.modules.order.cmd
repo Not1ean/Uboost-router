@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/modules.order := {   echo net/ipv6/netfilter/nf_defrag_ipv6.ko;   echo net/ipv6/netfilter/nf_reject_ipv6.ko;   echo net/ipv6/netfilter/nft_reject_ipv6.ko;   echo net/ipv6/netfilter/nft_fib_ipv6.ko;   echo net/ipv6/netfilter/nf_flow_table_ipv6.ko; :; } | awk '!x[$$0]++' - > net/ipv6/netfilter/modules.order

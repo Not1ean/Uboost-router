@@ -1,0 +1,3 @@
+lib/crypto/libchacha20poly1305.ko
+lib/crypto/libcurve25519-generic.ko
+lib/crypto/libcurve25519.ko

@@ -1,0 +1,1 @@
+cmd_crypto/authencesn.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/authencesn.ko crypto/authencesn.o crypto/authencesn.mod.o;  true

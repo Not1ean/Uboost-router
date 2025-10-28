@@ -1,0 +1,1 @@
+cmd_drivers/soc/mediatek/built-in.a := echo >/dev/null; rm -f drivers/soc/mediatek/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/soc/mediatek/built-in.a drivers/soc/mediatek/mtk-infracfg.o drivers/soc/mediatek/mtk-pmic-wrap.o drivers/soc/mediatek/mtk-scpsys.o drivers/soc/mediatek/mtk-pm-domains.o

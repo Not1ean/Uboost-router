@@ -1,0 +1,21 @@
+Source-Makefile: package/uboot-router-api/Makefile
+
+Package: uboot-router-api
+Version: 1.0-1
+Depends: +libc +luci-base +luci-theme-argon +custom-theme +lua +luci-lib-jsonc +luci-compat +uboot-integration +curl +ca-bundle
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Uboost
+Repository: base
+Title: Uboost Router API and Dashboard
+Maintainer: Uboost Team <dev@uboost.com>
+Source: 
+License: MIT
+Type: ipkg
+Description:   Uboost Router management interface with VPN and YouTube free access
+Uboost Team <dev@uboost.com>
+@@
+
+

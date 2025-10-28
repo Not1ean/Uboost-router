@@ -1,0 +1,12 @@
+Package: uboot-integration
+Version: 1.0-1
+Depends: libc, kmod-amneziawg, amneziawg-tools, zapret, curl, ca-bundle
+Source: package/uboot-integration
+SourceName: uboot-integration
+License: MIT
+Section: utils
+SourceDateEpoch: 1760580457
+Maintainer: Uboost Team <dev@uboost.com>
+Architecture: all
+Installed-Size: 2299
+Description:  Integration package for UBoost DPI and VPN services

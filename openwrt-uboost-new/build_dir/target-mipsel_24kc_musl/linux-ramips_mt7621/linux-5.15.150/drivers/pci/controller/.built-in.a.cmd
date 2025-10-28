@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/built-in.a := echo >/dev/null; rm -f drivers/pci/controller/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/pci/controller/built-in.a drivers/pci/controller/pcie-mt7621.o drivers/pci/controller/dwc/built-in.a drivers/pci/controller/mobiveil/built-in.a

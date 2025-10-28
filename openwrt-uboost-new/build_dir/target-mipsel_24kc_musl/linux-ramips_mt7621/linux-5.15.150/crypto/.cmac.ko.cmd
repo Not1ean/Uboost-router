@@ -1,0 +1,1 @@
+cmd_crypto/cmac.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/cmac.ko crypto/cmac.o crypto/cmac.mod.o;  make -f ./arch/mips/Makefile.postlink crypto/cmac.ko

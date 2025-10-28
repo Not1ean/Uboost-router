@@ -1,0 +1,8 @@
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/ucert_lib.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/ucert.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/hostpkg/ucert-2020-05-24-00b921d8/CMakeFiles/install/strip.dir

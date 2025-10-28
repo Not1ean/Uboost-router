@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_comment.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_comment.ko net/netfilter/xt_comment.o net/netfilter/xt_comment.mod.o;  true

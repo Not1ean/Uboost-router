@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/ralink/built-in.a := echo >/dev/null; rm -f drivers/pinctrl/ralink/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/pinctrl/ralink/built-in.a drivers/pinctrl/ralink/pinctrl-ralink.o drivers/pinctrl/ralink/pinctrl-mt7621.o

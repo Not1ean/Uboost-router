@@ -1,0 +1,11 @@
+# ninja log v5
+2	499	1760582683103413122	CMakeFiles/odhcpd.dir/src/odhcpd.c.o	4e320a3bdd0f7b6a
+500	1675	1760582684280354973	CMakeFiles/odhcpd.dir/src/config.c.o	7e2645ee89321881
+1675	2441	1760582685045413137	CMakeFiles/odhcpd.dir/src/router.c.o	15caf03ab87cefaf
+2441	3056	1760582685660413141	CMakeFiles/odhcpd.dir/src/dhcpv6.c.o	44b0fb646f80d6b7
+2773	3109	1760582685714413142	CMakeFiles/odhcpd.dir/src/ndp.c.o	23629b5e34ac71ab
+3110	3958	1760582686561413149	CMakeFiles/odhcpd.dir/src/netlink.c.o	2d48e2a4737c2478
+3958	4556	1760582687156413153	CMakeFiles/odhcpd.dir/src/ubus.c.o	d130706fb9965ffb
+3056	4787	1760582687390413155	CMakeFiles/odhcpd.dir/src/dhcpv6-ia.c.o	6bab7e790b958ba8
+4787	4869	1760582687473413156	odhcpd	45b1c57f85562b97
+2	17	0	CMakeFiles/install.util	416204b0eca1ba91

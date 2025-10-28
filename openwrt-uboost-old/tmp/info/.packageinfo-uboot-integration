@@ -1,0 +1,21 @@
+Source-Makefile: package/uboot-integration/Makefile
+
+Package: uboot-integration
+Version: 1.0-1
+Depends: +libc +uboot-router-api +kmod-wireguard +wireguard-tools +zapret
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Uboost
+Repository: base
+Title: UBoost Services Integration
+Maintainer: Uboost Team <dev@uboost.com>
+Source: 
+License: MIT
+Type: ipkg
+Description:   Integration package for UBoost DPI and VPN services
+Uboost Team <dev@uboost.com>
+@@
+
+

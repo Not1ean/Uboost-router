@@ -1,0 +1,2 @@
+arch/mips/crypto/chacha-mips.ko
+arch/mips/crypto/poly1305-mips.ko

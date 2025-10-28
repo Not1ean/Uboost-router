@@ -1,0 +1,1 @@
+cmd_lib/crc-ccitt.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o lib/crc-ccitt.ko lib/crc-ccitt.o lib/crc-ccitt.mod.o;  make -f ./arch/mips/Makefile.postlink lib/crc-ccitt.ko

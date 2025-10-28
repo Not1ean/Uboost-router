@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nfnetlink.ko net/netfilter/nfnetlink.o net/netfilter/nfnetlink.mod.o;  make -f ./arch/mips/Makefile.postlink net/netfilter/nfnetlink.ko

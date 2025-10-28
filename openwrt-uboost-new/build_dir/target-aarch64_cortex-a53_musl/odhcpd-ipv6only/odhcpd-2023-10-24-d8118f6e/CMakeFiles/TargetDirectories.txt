@@ -1,0 +1,9 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/odhcpd.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/package.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/package_source.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/odhcpd-ipv6only/odhcpd-2023-10-24-d8118f6e/CMakeFiles/install/strip.dir

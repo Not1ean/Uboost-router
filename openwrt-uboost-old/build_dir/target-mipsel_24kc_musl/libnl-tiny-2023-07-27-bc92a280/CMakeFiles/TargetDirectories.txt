@@ -1,0 +1,8 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/nl-tiny.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/nl-tiny-static.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/libnl-tiny-2023-07-27-bc92a280/CMakeFiles/install/strip.dir

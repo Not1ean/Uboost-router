@@ -1,0 +1,1 @@
+cmd_drivers/mtd/mtdsplit/built-in.a := echo >/dev/null; rm -f drivers/mtd/mtdsplit/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/mtd/mtdsplit/built-in.a drivers/mtd/mtdsplit/mtdsplit.o drivers/mtd/mtdsplit/mtdsplit_squashfs.o drivers/mtd/mtdsplit/mtdsplit_fit.o

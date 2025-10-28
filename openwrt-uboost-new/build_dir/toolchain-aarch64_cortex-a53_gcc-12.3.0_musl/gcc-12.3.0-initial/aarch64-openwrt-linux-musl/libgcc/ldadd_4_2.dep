@@ -1,0 +1,4 @@
+ldadd_4_2.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/libgcc/config/aarch64/lse.S \
+ auto-target.h
+auto-target.h:

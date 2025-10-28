@@ -1,0 +1,6 @@
+ldeor_8_5.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/libgcc/config/aarch64/lse.S \
+ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include/stdc-predef.h \
+ auto-target.h
+/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include/stdc-predef.h:
+auto-target.h:

@@ -1,0 +1,1 @@
+cmd_crypto/poly1305_generic.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/poly1305_generic.ko crypto/poly1305_generic.o crypto/poly1305_generic.mod.o;  true

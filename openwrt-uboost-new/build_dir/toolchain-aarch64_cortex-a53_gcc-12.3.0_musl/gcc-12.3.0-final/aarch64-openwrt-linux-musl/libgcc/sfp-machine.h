@@ -1,0 +1,1 @@
+/home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/libgcc/config/aarch64/sfp-machine.h

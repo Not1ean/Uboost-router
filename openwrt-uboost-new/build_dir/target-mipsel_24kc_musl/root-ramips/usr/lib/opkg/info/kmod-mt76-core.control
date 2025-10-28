@@ -1,0 +1,12 @@
+Package: kmod-mt76-core
+Version: 5.15.150+2023-09-11-f1e1e67d-1
+Depends: kernel (=5.15.150-1-d8f5fc93a604f67f00a8f9692e7fa577), kmod-mac80211
+Source: package/kernel/mt76
+SourceName: kmod-mt76-core
+License: GPLv2
+Section: kernel
+SourceDateEpoch: 1711145382
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_24kc
+Installed-Size: 31467
+Description:  MediaTek MT76xx wireless driver

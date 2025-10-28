@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.a := echo >/dev/null; rm -f drivers/leds/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/leds/built-in.a drivers/leds/led-core.o drivers/leds/led-class.o drivers/leds/led-class-multicolor.o drivers/leds/led-triggers.o drivers/leds/trigger/built-in.a drivers/leds/blink/built-in.a

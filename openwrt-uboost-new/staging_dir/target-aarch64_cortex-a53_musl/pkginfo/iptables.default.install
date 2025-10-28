@@ -1,0 +1,7 @@
+libxtables
+libiptext
+libiptext6
+libiptext-nft
+xtables-nft
+iptables-nft
+iptables-mod-nfqueue

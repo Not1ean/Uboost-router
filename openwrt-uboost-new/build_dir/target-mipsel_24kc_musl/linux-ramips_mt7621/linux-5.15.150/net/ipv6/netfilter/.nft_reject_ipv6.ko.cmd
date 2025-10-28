@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/nft_reject_ipv6.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv6/netfilter/nft_reject_ipv6.ko net/ipv6/netfilter/nft_reject_ipv6.o net/ipv6/netfilter/nft_reject_ipv6.mod.o;  make -f ./arch/mips/Makefile.postlink net/ipv6/netfilter/nft_reject_ipv6.ko

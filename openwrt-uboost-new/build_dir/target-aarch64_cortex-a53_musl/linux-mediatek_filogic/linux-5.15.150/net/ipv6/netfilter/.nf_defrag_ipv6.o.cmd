@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/nf_defrag_ipv6.o := aarch64-openwrt-linux-musl-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/ipv6/netfilter/nf_defrag_ipv6.o net/ipv6/netfilter/nf_defrag_ipv6_hooks.o net/ipv6/netfilter/nf_conntrack_reasm.o

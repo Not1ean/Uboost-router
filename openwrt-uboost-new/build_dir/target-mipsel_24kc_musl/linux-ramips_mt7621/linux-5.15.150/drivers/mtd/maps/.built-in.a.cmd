@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/built-in.a := echo >/dev/null; rm -f drivers/mtd/maps/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/mtd/maps/built-in.a drivers/mtd/maps/map_funcs.o drivers/mtd/maps/physmap-core.o

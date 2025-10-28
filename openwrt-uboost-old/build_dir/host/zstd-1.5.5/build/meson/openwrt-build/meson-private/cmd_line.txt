@@ -1,0 +1,17 @@
+[options]
+default_library = static
+legacy_level = 7
+debug_level = 0
+backtrace = disabled
+static_runtime = false
+bin_programs = true
+bin_tests = false
+bin_contrib = false
+multi_thread = enabled
+zlib = disabled
+lzma = disabled
+lz4 = disabled
+
+[properties]
+native_file = ['/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/openwrt-native.txt']
+

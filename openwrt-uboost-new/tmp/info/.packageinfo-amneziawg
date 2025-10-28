@@ -1,0 +1,25 @@
+Source-Makefile: package/amneziawg/Makefile
+
+Package: amneziawg
+Submenu: VPN
+Version: 1.0.0-1
+Depends: +libc +kmod-wireguard +wireguard-tools
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: AmneziaWG VPN Client
+Maintainer: AmneziaVPN Team <team@amnezia.org>
+Source: 
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Type: ipkg
+Description:   AmneziaWG is a VPN client based on WireGuard protocol with 
+  advanced obfuscation capabilities.
+https://amnezia.org/
+AmneziaVPN Team <team@amnezia.org>
+@@
+
+

@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nft_fib_ipv4.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/nft_fib_ipv4.ko net/ipv4/netfilter/nft_fib_ipv4.o net/ipv4/netfilter/nft_fib_ipv4.mod.o;  make -f ./arch/mips/Makefile.postlink net/ipv4/netfilter/nft_fib_ipv4.ko

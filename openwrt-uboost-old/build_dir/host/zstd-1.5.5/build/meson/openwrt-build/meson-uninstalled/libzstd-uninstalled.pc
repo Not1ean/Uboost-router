@@ -1,0 +1,11 @@
+prefix=/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson/openwrt-build
+srcdir=/home/notlean/openwrt-uboost/build_dir/host/zstd-1.5.5/build/meson
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libzstd
+Description: fast lossless compression algorithm library
+URL: https://facebook.github.io/zstd/
+Version: 1.5.5
+Libs: -L${prefix}/lib -lzstd -pthread
+Cflags: -I${prefix}/lib -I${srcdir}/lib -I${prefix}/lib/../../../lib -I${srcdir}/lib/../../../lib -I${prefix}/lib/../../../lib/common -I${srcdir}/lib/../../../lib/common -I${prefix}/lib/../../../lib/compress -I${srcdir}/lib/../../../lib/compress -I${prefix}/lib/../../../lib/decompress -I${srcdir}/lib/../../../lib/decompress -I${prefix}/lib/../../../lib/dictBuilder -I${srcdir}/lib/../../../lib/dictBuilder -I${prefix}/lib/../../../lib/legacy -I${srcdir}/lib/../../../lib/legacy -pthread

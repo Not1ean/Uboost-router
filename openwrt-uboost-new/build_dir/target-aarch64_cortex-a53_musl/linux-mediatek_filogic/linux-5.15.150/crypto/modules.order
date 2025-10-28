@@ -1,0 +1,10 @@
+crypto/seqiv.ko
+crypto/md5.ko
+crypto/sha1_generic.ko
+crypto/sha3_generic.ko
+crypto/chacha20poly1305.ko
+crypto/des_generic.ko
+crypto/chacha_generic.ko
+crypto/poly1305_generic.ko
+crypto/authenc.ko
+crypto/authencesn.ko

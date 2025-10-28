@@ -1,0 +1,21 @@
+Source-Makefile: package/uboot-rename/Makefile
+
+Package: uboot-rename
+Version: 1.0-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Uboost
+Repository: base
+Title: Uboost Branding Rename
+Maintainer: Uboost Team <dev@uboost.com>
+Source: 
+License: MIT
+Type: ipkg
+Description:   Replace OpenWRT branding with Uboost
+Uboost Team <dev@uboost.com>
+@@
+
+

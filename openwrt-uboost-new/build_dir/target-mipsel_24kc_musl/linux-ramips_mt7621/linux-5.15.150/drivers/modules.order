@@ -1,0 +1,8 @@
+drivers/net/wireguard/wireguard.ko
+drivers/net/ppp/ppp_generic.ko
+drivers/net/ppp/ppp_async.ko
+drivers/net/ppp/pppox.ko
+drivers/net/ppp/pppoe.ko
+drivers/net/slip/slhc.ko
+drivers/leds/leds-gpio.ko
+drivers/hwmon/hwmon.ko

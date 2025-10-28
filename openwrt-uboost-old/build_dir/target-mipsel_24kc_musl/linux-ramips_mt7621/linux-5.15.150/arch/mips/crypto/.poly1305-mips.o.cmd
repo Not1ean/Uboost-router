@@ -1,0 +1,1 @@
+cmd_arch/mips/crypto/poly1305-mips.o := mipsel-openwrt-linux-musl-ld -m elf32ltsmip -z noexecstack --no-warn-rwx-segments   -r -o arch/mips/crypto/poly1305-mips.o arch/mips/crypto/poly1305-core.o arch/mips/crypto/poly1305-glue.o

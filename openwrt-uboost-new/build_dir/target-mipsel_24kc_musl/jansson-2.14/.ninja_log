@@ -1,0 +1,17 @@
+# ninja log v5
+2	68	1760582627632412991	CMakeFiles/jansson.dir/src/dump.c.o	e74d489a19d0d24c
+68	94	1760582627658412991	CMakeFiles/jansson.dir/src/error.c.o	4e0cd30482c41165
+94	154	1760582627718713118	CMakeFiles/jansson.dir/src/hashtable.c.o	bf12fd5b5c6fc2ce
+154	194	1760582627759412991	CMakeFiles/jansson.dir/src/hashtable_seed.c.o	d6e19f66e984841d
+194	277	1760582627841743171	CMakeFiles/jansson.dir/src/load.c.o	62fa364cb0e9a7ba
+277	298	1760582627862873371	CMakeFiles/jansson.dir/src/memory.c.o	6e17ad3d9dfee5e3
+298	364	1760582627928527155	CMakeFiles/jansson.dir/src/pack_unpack.c.o	71948b64f8345b3c
+364	399	1760582627964412990	CMakeFiles/jansson.dir/src/strbuffer.c.o	d86994a589e0a687
+399	442	1760582628007412990	CMakeFiles/jansson.dir/src/strconv.c.o	bae347d8b0e6b4ae
+442	474	1760582628039412990	CMakeFiles/jansson.dir/src/utf.c.o	aeef293340a77d43
+474	609	1760582628173068268	CMakeFiles/jansson.dir/src/value.c.o	a22dc03e1659a424
+609	634	1760582628198717433	CMakeFiles/jansson.dir/src/version.c.o	521fad525d38f3c9
+634	2551	1760582630113412984	lib/libjansson.so.4.14.0	ca3ea29b9f075a9d
+2551	2556	1760582630113412984	lib/libjansson.so.4	1bb7002c53bde4df
+2551	2556	1760582630113412984	lib/libjansson.so	1bb7002c53bde4df
+1	10	0	CMakeFiles/install.util	64f35b7a466df04b

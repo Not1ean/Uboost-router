@@ -1,0 +1,1 @@
+cmd_crypto/seqiv.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/seqiv.ko crypto/seqiv.o crypto/seqiv.mod.o;  make -f ./arch/mips/Makefile.postlink crypto/seqiv.ko

@@ -1,0 +1,1 @@
+cmd_crypto/modules.order := {   echo crypto/seqiv.ko;   echo crypto/md5.ko;   echo crypto/sha1_generic.ko;   echo crypto/sha3_generic.ko;   echo crypto/chacha20poly1305.ko;   echo crypto/des_generic.ko;   echo crypto/chacha_generic.ko;   echo crypto/poly1305_generic.ko;   echo crypto/authenc.ko;   echo crypto/authencesn.ko; :; } | awk '!x[$$0]++' - > crypto/modules.order

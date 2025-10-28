@@ -1,0 +1,10 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/uhttpd.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/uhttpd_lua.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/uhttpd_ucode.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/uhttpd_ubus.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/uhttpd-2023-06-25-34a8a74d/CMakeFiles/install/strip.dir

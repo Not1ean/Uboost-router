@@ -1,0 +1,11 @@
+Package: kmod-nf-conntrack
+Version: 5.15.150-1
+Depends: kernel (=5.15.150-1-ea516807a10d4d2bef0215534bda477f)
+Source: package/kernel/linux
+SourceName: kmod-nf-conntrack
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1709893690
+Architecture: aarch64_cortex-a53
+Installed-Size: 50518
+Description:  Netfilter connection tracking

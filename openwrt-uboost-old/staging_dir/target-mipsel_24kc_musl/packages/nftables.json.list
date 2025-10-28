@@ -1,0 +1,12 @@
+./
+./host
+./usr
+./usr/lib
+./usr/lib/libnftables.so.1.1.0
+./usr/lib/libnftables.so.1
+./usr/lib/pkgconfig
+./usr/lib/pkgconfig/libnftables.pc
+./usr/lib/libnftables.so
+./usr/include
+./usr/include/nftables
+./usr/include/nftables/libnftables.h

@@ -1,0 +1,11 @@
+_m16stubsc9_s.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/config/mips/mips16.S \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/config/mips/gnustack.h \
+ ../.././gcc/config.h ../.././gcc/auto-host.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/ansidecl.h \
+ ../.././gcc/auto-host.h
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/config/mips/gnustack.h:
+../.././gcc/config.h:
+../.././gcc/auto-host.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/libgcc/../include/ansidecl.h:
+../.././gcc/auto-host.h:

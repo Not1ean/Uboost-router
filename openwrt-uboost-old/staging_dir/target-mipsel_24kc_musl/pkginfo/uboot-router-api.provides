@@ -1,0 +1,14 @@
+libblobmsg_json.so.20230523
+libc.so
+libgcc_s.so.1
+libjson-c.so.5
+libjson-c.so.5.2.0
+liblua.so.5.1.5
+liblucihttp.so.0
+liblucihttp.so.0.1
+libnl-tiny.so.1
+libubox.so.20230523
+libubus.so.20230605
+libuci.so
+libuclient.so
+libucode.so.20230711

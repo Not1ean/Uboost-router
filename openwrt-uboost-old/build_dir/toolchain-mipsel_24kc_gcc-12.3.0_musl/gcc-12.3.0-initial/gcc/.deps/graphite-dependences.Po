@@ -1,0 +1,7 @@
+graphite-dependences.o: \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/gcc/graphite-dependences.cc \
+ config.h auto-host.h \
+ /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h
+config.h:
+auto-host.h:
+/home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/gcc/../include/ansidecl.h:

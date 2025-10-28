@@ -1,0 +1,22 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/home/notlean/openwrt-uboost/staging_dir/host/lib/libpkgconf.a
+/home/notlean/openwrt-uboost/staging_dir/host/bin/pkgconf
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf/libpkgconf/libpkgconf.h
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf/libpkgconf/stdinc.h
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf/libpkgconf/iter.h
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf/libpkgconf/bsdstubs.h
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf/libpkgconf/libpkgconf-api.h
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man1/pkgconf.1
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man7/pkg.m4.7
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man5/pc.5
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man5/pkgconf-personality.5
+/home/notlean/openwrt-uboost/staging_dir/host/lib/pkgconfig/libpkgconf.pc
+/home/notlean/openwrt-uboost/staging_dir/host/share/aclocal/pkg.m4
+/home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf/AUTHORS
+/home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf/README.md
+/home/notlean/openwrt-uboost/staging_dir/host/share/doc/pkgconf
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man5
+/home/notlean/openwrt-uboost/staging_dir/host/share/man/man7
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf/libpkgconf
+/home/notlean/openwrt-uboost/staging_dir/host/include/pkgconf

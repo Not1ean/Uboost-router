@@ -1,0 +1,11 @@
+prefix=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39/openwrt-build
+srcdir=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: mount
+Description: mount library
+Version: 2.39.0
+Requires.private: blkid
+Libs: -L${prefix}/libmount -lmount
+Cflags: -I${prefix}/libmount -I${srcdir}/libmount -I${prefix}/include -I${srcdir}/include -I${prefix}/libmount -I${srcdir}/libmount -I${prefix}/libmount/src -I${srcdir}/libmount/src -I${prefix}/libblkid -I${srcdir}/libblkid -I${prefix}/libblkid/src -I${srcdir}/libblkid/src

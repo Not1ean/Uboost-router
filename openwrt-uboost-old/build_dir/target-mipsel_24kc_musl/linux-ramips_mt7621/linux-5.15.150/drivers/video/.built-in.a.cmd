@@ -1,0 +1,1 @@
+cmd_drivers/video/built-in.a := echo >/dev/null; rm -f drivers/video/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/video/built-in.a drivers/video/backlight/built-in.a drivers/video/fbdev/built-in.a

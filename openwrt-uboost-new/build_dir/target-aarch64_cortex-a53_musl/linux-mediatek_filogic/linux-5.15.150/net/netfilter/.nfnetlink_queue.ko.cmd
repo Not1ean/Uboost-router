@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_queue.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nfnetlink_queue.ko net/netfilter/nfnetlink_queue.o net/netfilter/nfnetlink_queue.mod.o;  true

@@ -1,0 +1,21 @@
+Source-Makefile: package/kmod-amneziawg/Makefile
+
+Package: kmod-amneziawg
+Submenu: Network Support
+Version: <LINUX_VERSION>+0.0.1-1
+Depends: +kmod-udptunnel4 +kmod-udptunnel6 +kmod-crypto-lib-chacha20poly1305 +kmod-crypto-lib-curve25519
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: AmneziaWG Kernel Module
+Maintainer: Amnezia Admin <admin@amnezia.org>
+Source: 
+Type: ipkg
+Description: AmneziaWG Kernel Module
+https://amnezia.org/
+Amnezia Admin <admin@amnezia.org>
+@@
+
+

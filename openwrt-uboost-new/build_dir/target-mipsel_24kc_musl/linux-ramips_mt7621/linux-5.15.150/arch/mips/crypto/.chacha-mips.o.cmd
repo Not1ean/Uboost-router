@@ -1,0 +1,1 @@
+cmd_arch/mips/crypto/chacha-mips.o := mipsel-openwrt-linux-musl-ld -m elf32ltsmip -z noexecstack --no-warn-rwx-segments   -r -o arch/mips/crypto/chacha-mips.o arch/mips/crypto/chacha-core.o arch/mips/crypto/chacha-glue.o

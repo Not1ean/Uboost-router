@@ -1,0 +1,1 @@
+cmd_drivers/net/mdio/built-in.a := echo >/dev/null; rm -f drivers/net/mdio/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/net/mdio/built-in.a drivers/net/mdio/fwnode_mdio.o drivers/net/mdio/of_mdio.o

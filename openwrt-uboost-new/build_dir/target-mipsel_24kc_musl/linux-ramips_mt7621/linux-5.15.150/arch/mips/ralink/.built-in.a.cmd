@@ -1,0 +1,1 @@
+cmd_arch/mips/ralink/built-in.a := echo >/dev/null; rm -f arch/mips/ralink/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST arch/mips/ralink/built-in.a arch/mips/ralink/prom.o arch/mips/ralink/of.o arch/mips/ralink/reset.o arch/mips/ralink/irq-gic.o arch/mips/ralink/timer-gic.o arch/mips/ralink/mt7621.o arch/mips/ralink/early_printk.o arch/mips/ralink/bootrom.o

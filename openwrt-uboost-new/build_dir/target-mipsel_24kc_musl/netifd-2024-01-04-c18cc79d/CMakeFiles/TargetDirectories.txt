@@ -1,0 +1,8 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/ethtool-modes-h.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/netifd.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/netifd-2024-01-04-c18cc79d/CMakeFiles/install/strip.dir

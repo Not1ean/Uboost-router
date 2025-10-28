@@ -1,10 +1,5 @@
 # OpenWrt build directories
-build_dir/
-staging_dir/
-bin/
-tmp/
 dl/
-feeds/
 
 # Configuration files
 .config

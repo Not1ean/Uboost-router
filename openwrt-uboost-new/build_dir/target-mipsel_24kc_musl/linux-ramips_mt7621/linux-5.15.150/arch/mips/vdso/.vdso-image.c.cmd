@@ -1,0 +1,1 @@
+cmd_arch/mips/vdso/vdso-image.c := 	cp arch/mips/vdso/vdso.so.dbg.raw arch/mips/vdso/vdso.so.dbg && cp arch/mips/vdso/vdso.so.raw arch/mips/vdso/vdso.so && arch/mips/vdso/genvdso arch/mips/vdso/vdso.so.dbg arch/mips/vdso/vdso.so arch/mips/vdso/vdso-image.c 

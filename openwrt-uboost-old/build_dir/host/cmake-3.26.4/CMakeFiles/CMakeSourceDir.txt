@@ -1,0 +1,1 @@
+/home/notlean/openwrt-uboost/build_dir/host/cmake-3.26.4

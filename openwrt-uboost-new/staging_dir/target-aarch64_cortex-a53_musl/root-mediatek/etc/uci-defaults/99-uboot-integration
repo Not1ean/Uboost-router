@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# UBoost Services Integration Initialization
+
+# Создаем симлинки для сервисов если нужно
+[ -x /usr/bin/amneziawg ] || ln -sf /usr/sbin/amneziawg /usr/bin/amneziawg 2>/dev/null
+[ -x /usr/bin/zapret ] || ln -sf /usr/sbin/zapret /usr/bin/zapret 2>/dev/null
+
+# Настраиваем базовые правила firewall для VPN
+if [ -f /etc/config/firewall ] && ! uci get firewall.vpn_zone >/dev/null 2>&1; then
+    uci add firewall zone
+    uci set firewall.@zone[-1].name='vpn_zone'
+    uci set firewall.@zone[-1].input='REJECT'
+    uci set firewall.@zone[-1].output='ACCEPT'
+    uci set firewall.@zone[-1].forward='REJECT'
+    uci set firewall.@zone[-1].masq='1'
+    uci set firewall.@zone[-1].mtu_fix='1'
+    uci commit firewall
+fi
+
+exit 0

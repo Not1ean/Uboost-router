@@ -1,0 +1,10 @@
+prefix=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39/openwrt-build
+srcdir=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/util-linux-2.39
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.39.0
+Libs: -L${prefix}/libblkid -lblkid
+Cflags: -I${prefix}/libblkid -I${srcdir}/libblkid -I${prefix}/include -I${srcdir}/include -I${prefix}/libblkid -I${srcdir}/libblkid -I${prefix}/libblkid/src -I${srcdir}/libblkid/src

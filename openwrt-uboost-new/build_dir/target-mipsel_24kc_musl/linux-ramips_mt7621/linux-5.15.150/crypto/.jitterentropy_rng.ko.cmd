@@ -1,0 +1,1 @@
+cmd_crypto/jitterentropy_rng.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/jitterentropy_rng.ko crypto/jitterentropy_rng.o crypto/jitterentropy_rng.mod.o;  make -f ./arch/mips/Makefile.postlink crypto/jitterentropy_rng.ko

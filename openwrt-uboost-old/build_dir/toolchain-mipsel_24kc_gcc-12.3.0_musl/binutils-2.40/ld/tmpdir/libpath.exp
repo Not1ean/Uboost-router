@@ -1,0 +1,1 @@
+set libpath "=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib =/usr/local/lib =/lib =/usr/lib"

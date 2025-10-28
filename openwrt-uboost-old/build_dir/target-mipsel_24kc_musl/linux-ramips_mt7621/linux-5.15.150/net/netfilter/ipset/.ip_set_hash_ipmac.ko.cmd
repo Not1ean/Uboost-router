@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_ipmac.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipset/ip_set_hash_ipmac.ko net/netfilter/ipset/ip_set_hash_ipmac.o net/netfilter/ipset/ip_set_hash_ipmac.mod.o;  make -f ./arch/mips/Makefile.postlink net/netfilter/ipset/ip_set_hash_ipmac.ko

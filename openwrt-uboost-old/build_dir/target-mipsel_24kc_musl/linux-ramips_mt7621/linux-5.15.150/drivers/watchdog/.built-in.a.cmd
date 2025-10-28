@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/built-in.a := echo >/dev/null; rm -f drivers/watchdog/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/watchdog/built-in.a drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_dev.o drivers/watchdog/mt7621_wdt.o drivers/watchdog/gpio_wdt.o

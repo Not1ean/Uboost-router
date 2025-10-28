@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_LOG.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_LOG.ko net/netfilter/xt_LOG.o net/netfilter/xt_LOG.mod.o;  make -f ./arch/mips/Makefile.postlink net/netfilter/xt_LOG.ko

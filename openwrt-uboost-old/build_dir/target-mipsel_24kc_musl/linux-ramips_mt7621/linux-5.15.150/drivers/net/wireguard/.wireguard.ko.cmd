@@ -1,0 +1,1 @@
+cmd_drivers/net/wireguard/wireguard.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireguard/wireguard.ko drivers/net/wireguard/wireguard.o drivers/net/wireguard/wireguard.mod.o;  make -f ./arch/mips/Makefile.postlink drivers/net/wireguard/wireguard.ko

@@ -1,0 +1,14 @@
+Package: gzip
+Version: 1.12-1
+Depends: libc
+Alternatives: 300:/bin/gunzip:/usr/libexec/gunzip-gnu, 300:/bin/gzip:/usr/libexec/gzip-gnu, 300:/bin/zcat:/usr/libexec/zcat-gnu
+Source: feeds/packages/utils/gzip
+SourceName: gzip
+License: GPL-3.0-or-later
+Section: utils
+SourceDateEpoch: 1682490524
+CPE-ID: cpe:/a:gnu:gzip
+Maintainer: Christian Beier <dontmind@freeshell.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 43786
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.

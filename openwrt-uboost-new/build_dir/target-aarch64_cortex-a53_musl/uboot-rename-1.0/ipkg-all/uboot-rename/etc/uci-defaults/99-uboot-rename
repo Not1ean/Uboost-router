@@ -1,0 +1,50 @@
+#!/bin/sh
+
+# Replace OpenWRT with Uboost in system files
+
+# System version files
+if [ -f "/etc/openwrt_release" ]; then
+    sed -i 's/OpenWRT/UBoost/g' /etc/openwrt_release
+    sed -i 's/openwrt.org/uboost.com/g' /etc/openwrt_release
+    sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='UBoost Router OS'/g" /etc/openwrt_release
+fi
+
+if [ -f "/etc/openwrt_version" ]; then
+    echo "UBoost" > /etc/openwrt_version
+fi
+
+if [ -f "/etc/banner" ]; then
+    sed -i 's/OpenWRT/UBoost/g' /etc/banner
+fi
+
+# LuCI configuration
+if [ -f "/etc/config/luci" ]; then
+    uci set luci.main.title='UBoost Router'
+    uci commit luci
+fi
+
+# Hostname
+uci set system.@system[0].hostname='UBoost-Router'
+uci commit system
+
+# Create custom issue file for SSH banner
+cat > /etc/issue << 'EOF'
+   _   _    ______
+  | | | |  |  __  |                  _
+  | | | |  | |__| |  ___  ___  ___  _ _
+  | | | |  |  __ /  | _ || _ || __||_ _|
+  | | | |  | |  |\  || |||| ||||__  | |
+  | | | |  | |  | | || |||| |||__ | | |
+  | | | |  | |  | | || |||| ||  | | | | 
+  | |_| |  | |__| | ||_||||_|| _| | | |_
+  |_____|  |______| |___||___||___| |___|
+        UBoost Router Management System
+
+EOF
+
+# Replace in motd if exists
+if [ -f "/etc/motd" ]; then
+    sed -i 's/OpenWRT/UBoost/g' /etc/motd
+fi
+
+exit 0

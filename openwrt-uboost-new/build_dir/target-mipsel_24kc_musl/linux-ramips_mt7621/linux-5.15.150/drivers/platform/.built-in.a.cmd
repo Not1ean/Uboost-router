@@ -1,0 +1,1 @@
+cmd_drivers/platform/built-in.a := echo >/dev/null; rm -f drivers/platform/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/platform/built-in.a drivers/platform/mips/built-in.a drivers/platform/mikrotik/built-in.a

@@ -1,0 +1,11 @@
+Package: kmod-amneziawg
+Version: 5.15.150+0.0.1-1
+Depends: kernel (=5.15.150-1-ea516807a10d4d2bef0215534bda477f), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
+Source: package/kmod-amneziawg
+SourceName: kmod-amneziawg
+Section: kernel
+SourceDateEpoch: 1760580457
+Maintainer: Amnezia Admin <admin@amnezia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 36451
+Description:  AmneziaWG Kernel Module

@@ -1,0 +1,12 @@
+# ninja log v5
+2	597	1761098207344557966	contrib/lemon	423a15c4cfa1e42
+2	597	1761098207344557966	/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jsonfilter-2024-01-23-594cfa86/contrib/lemon	423a15c4cfa1e42
+598	602	1761098207352355615	parser.c	8edaa11b8c978e7e
+598	602	1761098207352355615	/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jsonfilter-2024-01-23-594cfa86/parser.c	8edaa11b8c978e7e
+602	865	1761098207613944367	CMakeFiles/jsonpath.dir/main.c.o	5752835795c55d80
+866	963	1761098207708557629	CMakeFiles/jsonpath.dir/ast.c.o	8e0ea38ba458b586
+963	1168	1761098207912557440	CMakeFiles/jsonpath.dir/lexer.c.o	98cc97d07f275457
+1168	1303	1761098208048675470	CMakeFiles/jsonpath.dir/parser.c.o	53edce03bb645349
+1303	1440	1761098208185557188	CMakeFiles/jsonpath.dir/matcher.c.o	a8e23cf7f38ab9b8
+1440	1457	1761098208205557169	jsonpath	e51166b6ed972829
+2	10	0	CMakeFiles/install.util	fd651837649046b1

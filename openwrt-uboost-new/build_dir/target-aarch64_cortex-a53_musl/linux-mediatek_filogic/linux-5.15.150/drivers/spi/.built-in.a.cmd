@@ -1,0 +1,1 @@
+cmd_drivers/spi/built-in.a := echo >/dev/null; rm -f drivers/spi/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/spi/built-in.a drivers/spi/spi.o drivers/spi/spi-mem.o drivers/spi/spi-mt65xx.o drivers/spi/spi-mtk-nor.o drivers/spi/spi-mtk-snfi.o

@@ -1,0 +1,1 @@
+cmd_usr/initramfs_data.cpio := bash usr/gen_initramfs.sh -o usr/initramfs_data.cpio -l usr/.initramfs_data.cpio.d  -u 1000  -g 1000 /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/root-ramips /home/notlean/openwrt-uboost/target/linux/generic/image/initramfs-base-files.txt

@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.a := echo >/dev/null; rm -f drivers/staging/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/staging/built-in.a drivers/staging/media/built-in.a drivers/staging/mt7621-dma/built-in.a drivers/staging/mt7621-dts/built-in.a

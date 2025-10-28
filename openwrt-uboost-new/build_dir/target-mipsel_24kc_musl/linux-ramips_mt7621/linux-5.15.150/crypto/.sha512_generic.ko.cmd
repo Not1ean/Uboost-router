@@ -1,0 +1,1 @@
+cmd_crypto/sha512_generic.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/sha512_generic.ko crypto/sha512_generic.o crypto/sha512_generic.mod.o;  make -f ./arch/mips/Makefile.postlink crypto/sha512_generic.ko

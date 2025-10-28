@@ -1,0 +1,1 @@
+cmd_arch/mips/net/built-in.a := echo >/dev/null; rm -f arch/mips/net/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST arch/mips/net/built-in.a arch/mips/net/bpf_jit_comp.o arch/mips/net/bpf_jit_comp32.o

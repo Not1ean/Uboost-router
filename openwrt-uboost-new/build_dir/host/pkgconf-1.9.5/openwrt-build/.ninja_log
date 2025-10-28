@@ -1,0 +1,21 @@
+# ninja log v5
+1	138	1760581017265417725	libpkgconf.a.p/libpkgconf_argvsplit.c.o	a0b04b620f5ba05b
+139	213	1760581017340417554	libpkgconf.a.p/libpkgconf_audit.c.o	52f3dc5662c28c34
+213	311	1760581017438417331	libpkgconf.a.p/libpkgconf_bsdstubs.c.o	56239d98a7bc9c7e
+311	477	1760581017604416952	libpkgconf.a.p/libpkgconf_cache.c.o	4260082eabba0089
+477	704	1760581017830416437	libpkgconf.a.p/libpkgconf_client.c.o	852a19a792374118
+704	1012	1760581018138415737	libpkgconf.a.p/libpkgconf_dependency.c.o	e4ae97c50012511f
+1012	1127	1760581018254415473	libpkgconf.a.p/libpkgconf_fileio.c.o	661a43ba4cca3066
+1127	1499	1760581018624414631	libpkgconf.a.p/libpkgconf_fragment.c.o	3be5da535f2c7489
+1499	1662	1760581018789414256	libpkgconf.a.p/libpkgconf_parser.c.o	b06a51f5e9fabf60
+1662	1837	1760581018964413859	libpkgconf.a.p/libpkgconf_path.c.o	351267ba84b13eaf
+1837	2002	1760581019129413484	libpkgconf.a.p/libpkgconf_personality.c.o	c8bba554a69f9dc7
+2527	2775	1760581019899411737	libpkgconf.a.p/libpkgconf_queue.c.o	4b1e1e41c624c70f
+2002	2785	1760581019911411709	libpkgconf.a.p/libpkgconf_pkg.c.o	c5ccf3cad14dea5b
+2680	2919	1760581020044411408	libpkgconf.a.p/libpkgconf_tuple.c.o	3b26223f855f7dca
+2919	2927	1760581020054411385	libpkgconf.a	3363683e468fc8dc
+2775	2928	1760581020055411383	pkgconf.p/cli_renderer-msvc.c.o	badbacc37b3c6f89
+2762	3029	1760581020156411154	pkgconf.p/cli_getopt_long.c.o	288fbc8645632925
+2722	3230	1760581020356410701	pkgconf.p/cli_main.c.o	65d47a5123c622b4
+3230	3260	1760581020386410633	pkgconf	f0641a49602280d6
+1	1287	0	meson-install	8ecbbf02f3cb40bf

@@ -1,0 +1,21 @@
+Source-Makefile: package/uboost-menu/Makefile
+
+Package: uboost-menu
+Version: 1.0-1
+Depends: +libc +luci-base
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Uboost
+Repository: base
+Title: UBoost Menu
+Maintainer: Uboost Team <dev@uboost.com>
+Source: 
+License: MIT
+Type: ipkg
+Description:   UBoost menu configuration
+Uboost Team <dev@uboost.com>
+@@
+
+

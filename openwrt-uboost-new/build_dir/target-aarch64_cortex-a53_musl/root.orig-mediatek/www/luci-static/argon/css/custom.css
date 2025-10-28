@@ -1,0 +1,145 @@
+/* Uboost Custom Theme */
+:root {
+  --primary-color: #FF0930;
+  --primary-hover: #D60D0D;
+  --text-color: #D9D9D9;
+  --primary-disabled: rgba(255, 9, 48, 0.4);
+  --input-border: #FF0930;
+  --focus-shadow: rgba(255, 9, 48, 0.2);
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('/luci-static/argon/fonts/OpenRunde-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Open Runde', sans-serif !important;
+}
+
+.cbi-button,
+.btn {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+  font-weight: 500;
+}
+
+.cbi-button:hover,
+.btn:hover {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+  color: var(--text-color) !important;
+}
+
+.cbi-button:disabled,
+.btn:disabled {
+  background-color: var(--primary-disabled) !important;
+  border-color: var(--primary-disabled) !important;
+  opacity: 1 !important;
+}
+
+.cbi-input-text,
+.cbi-input-select,
+.cbi-input-password,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  border-color: var(--input-border) !important;
+}
+
+.cbi-input-text:focus,
+.cbi-input-select:focus,
+.cbi-input-password:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 2px var(--focus-shadow) !important;
+}
+
+a,
+.cbi-value-field a {
+  color: var(--primary-color) !important;
+}
+
+a:hover {
+  color: var(--primary-hover) !important;
+}
+
+.cbi-section-header,
+.cbi-map-header {
+  color: var(--primary-color) !important;
+}
+
+.cbi-tabmenu .cbi-tab-item.active {
+  border-bottom-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  accent-color: var(--primary-color) !important;
+}
+
+.cbi-progressbar .cbi-progressbar-bar {
+  background-color: var(--primary-color) !important;
+}
+
+.sidebar .main-menu > li.active > a {
+  color: var(--primary-color) !important;
+  border-left-color: var(--primary-color) !important;
+}
+
+.login-container {
+  background-image: url('../background/background.jpg') !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.header .logo {
+  background-image: url('../logo/logo.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 120px !important;
+  height: 40px !important;
+}
+
+.header .logo:after {
+  display: none !important;
+}
+
+.uboot-panel {
+  border-left: 3px solid var(--primary-color);
+}
+
+.uboot-button-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.uboot-button-primary:hover {
+  background: linear-gradient(135deg, var(--primary-hover), #B80A0A);
+  color: var(--text-color);
+}
+
+.uboot-button-primary:disabled {
+  background: var(--primary-disabled);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+body::after {
+  content: '';
+  display: none;
+  background: url('../../js/branding.js');
+}

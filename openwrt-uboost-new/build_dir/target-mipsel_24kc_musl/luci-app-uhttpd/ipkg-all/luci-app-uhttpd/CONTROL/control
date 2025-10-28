@@ -1,0 +1,12 @@
+Package: luci-app-uhttpd
+Version: git-22.029.54222-e3fbfe9
+Depends: libc, luci-compat, uhttpd, luci-lua-runtime
+Source: feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1710964510
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3059
+Description:  uHTTPd Webserver Configuration

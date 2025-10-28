@@ -1,0 +1,6 @@
+# ninja log v5
+1	161	1760582663748413010	CMakeFiles/ucert_lib.dir/usign-exec.c.o	d6dc598e009d9a30
+161	240	1760582663823413010	libucert_lib.a	9960fc92282ae2c
+240	720	1760582664308413013	CMakeFiles/ucert.dir/ucert.c.o	ede3338a3a96a1b6
+720	762	1760582664349962503	ucert	d5ef4953cea93046
+2	12	0	CMakeFiles/install.util	c7ca9e5558357bce

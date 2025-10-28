@@ -1,0 +1,1 @@
+cmd_drivers/mtd/parsers/built-in.a := echo >/dev/null; rm -f drivers/mtd/parsers/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/mtd/parsers/built-in.a drivers/mtd/parsers/ofpart_core.o drivers/mtd/parsers/parser_trx.o

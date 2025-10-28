@@ -1,0 +1,11 @@
+/usr/lib/libsetlbf.so
+/usr/sbin/procd
+/usr/sbin/init
+/usr/sbin/udevtrigger
+/usr/sbin/askfirst
+/usr/lib/libpreload-seccomp.so
+/usr/sbin/ujail
+/usr/sbin/uxc
+/usr/sbin/utrace
+/usr/lib/libpreload-trace.so
+/usr/sbin/upgraded

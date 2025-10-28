@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_limit.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_limit.ko net/netfilter/nft_limit.o net/netfilter/nft_limit.mod.o;  true

@@ -1,0 +1,2 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/linux-mediatek_filogic/gpio-button-hotplug/gpio-button-hotplug.o
+

@@ -1,0 +1,12 @@
+# ninja log v5
+4	337	1760583045861425074	CMakeFiles/liblucihttp.dir/lib/utils.c.o	72e717637a8a07a3
+256	530	1760583046054425084	CMakeFiles/liblucihttp.dir/lib/urlencoded-parser.c.o	acede0b8157eab93
+276	561	1760583046079425086	CMakeFiles/liblucihttp-lua.dir/lib/lua.c.o	819e95690e30d9a
+337	692	1760583046215425093	CMakeFiles/liblucihttp-ucode.dir/lib/ucode.c.o	4c12d9edf13d104c
+221	783	1760583046307425098	CMakeFiles/liblucihttp.dir/lib/multipart-parser.c.o	70d34b8940e401be
+783	828	1760583046349425100	liblucihttp.so.0.1	986f1e6a0808abde
+828	841	1760583046349425100	liblucihttp.so.0	4d35464b77f4bbf8
+828	841	1760583046349425100	liblucihttp.so	4d35464b77f4bbf8
+841	861	1760583046386970440	lua/lucihttp.so	b45cd7186cc10f5c
+861	890	1760583046411425104	ucode/lucihttp.so	713e581f7023ca4a
+6	25	0	CMakeFiles/install.util	210d6b89283e8b35

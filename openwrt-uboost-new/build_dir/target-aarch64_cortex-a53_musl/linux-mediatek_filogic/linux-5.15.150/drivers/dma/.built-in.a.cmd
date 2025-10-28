@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.a := echo >/dev/null; rm -f drivers/dma/built-in.a; aarch64-openwrt-linux-musl-ar cDPrST drivers/dma/built-in.a drivers/dma/dmaengine.o drivers/dma/virt-dma.o drivers/dma/of-dma.o drivers/dma/dmatest.o drivers/dma/idxd/built-in.a drivers/dma/mediatek/built-in.a drivers/dma/qcom/built-in.a drivers/dma/ti/built-in.a drivers/dma/xilinx/built-in.a

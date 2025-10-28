@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-gpio.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-gpio.ko drivers/leds/leds-gpio.o drivers/leds/leds-gpio.mod.o;  make -f ./arch/mips/Makefile.postlink drivers/leds/leds-gpio.ko

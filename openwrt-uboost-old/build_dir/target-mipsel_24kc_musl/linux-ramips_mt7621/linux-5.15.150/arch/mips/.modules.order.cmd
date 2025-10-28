@@ -1,0 +1,1 @@
+cmd_arch/mips/modules.order := {   cat arch/mips/ralink/modules.order;   cat arch/mips/kernel/modules.order;   cat arch/mips/mm/modules.order;   cat arch/mips/net/modules.order;   cat arch/mips/vdso/modules.order; :; } | awk '!x[$$0]++' - > arch/mips/modules.order

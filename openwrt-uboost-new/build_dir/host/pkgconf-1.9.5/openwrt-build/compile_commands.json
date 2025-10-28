@@ -1,0 +1,104 @@
+[
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_argvsplit.c.o -MF libpkgconf.a.p/libpkgconf_argvsplit.c.o.d -o libpkgconf.a.p/libpkgconf_argvsplit.c.o -c ../libpkgconf/argvsplit.c",
+    "file": "../libpkgconf/argvsplit.c",
+    "output": "libpkgconf.a.p/libpkgconf_argvsplit.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_audit.c.o -MF libpkgconf.a.p/libpkgconf_audit.c.o.d -o libpkgconf.a.p/libpkgconf_audit.c.o -c ../libpkgconf/audit.c",
+    "file": "../libpkgconf/audit.c",
+    "output": "libpkgconf.a.p/libpkgconf_audit.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_bsdstubs.c.o -MF libpkgconf.a.p/libpkgconf_bsdstubs.c.o.d -o libpkgconf.a.p/libpkgconf_bsdstubs.c.o -c ../libpkgconf/bsdstubs.c",
+    "file": "../libpkgconf/bsdstubs.c",
+    "output": "libpkgconf.a.p/libpkgconf_bsdstubs.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_cache.c.o -MF libpkgconf.a.p/libpkgconf_cache.c.o.d -o libpkgconf.a.p/libpkgconf_cache.c.o -c ../libpkgconf/cache.c",
+    "file": "../libpkgconf/cache.c",
+    "output": "libpkgconf.a.p/libpkgconf_cache.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_client.c.o -MF libpkgconf.a.p/libpkgconf_client.c.o.d -o libpkgconf.a.p/libpkgconf_client.c.o -c ../libpkgconf/client.c",
+    "file": "../libpkgconf/client.c",
+    "output": "libpkgconf.a.p/libpkgconf_client.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_dependency.c.o -MF libpkgconf.a.p/libpkgconf_dependency.c.o.d -o libpkgconf.a.p/libpkgconf_dependency.c.o -c ../libpkgconf/dependency.c",
+    "file": "../libpkgconf/dependency.c",
+    "output": "libpkgconf.a.p/libpkgconf_dependency.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_fileio.c.o -MF libpkgconf.a.p/libpkgconf_fileio.c.o.d -o libpkgconf.a.p/libpkgconf_fileio.c.o -c ../libpkgconf/fileio.c",
+    "file": "../libpkgconf/fileio.c",
+    "output": "libpkgconf.a.p/libpkgconf_fileio.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_fragment.c.o -MF libpkgconf.a.p/libpkgconf_fragment.c.o.d -o libpkgconf.a.p/libpkgconf_fragment.c.o -c ../libpkgconf/fragment.c",
+    "file": "../libpkgconf/fragment.c",
+    "output": "libpkgconf.a.p/libpkgconf_fragment.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_parser.c.o -MF libpkgconf.a.p/libpkgconf_parser.c.o.d -o libpkgconf.a.p/libpkgconf_parser.c.o -c ../libpkgconf/parser.c",
+    "file": "../libpkgconf/parser.c",
+    "output": "libpkgconf.a.p/libpkgconf_parser.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_path.c.o -MF libpkgconf.a.p/libpkgconf_path.c.o.d -o libpkgconf.a.p/libpkgconf_path.c.o -c ../libpkgconf/path.c",
+    "file": "../libpkgconf/path.c",
+    "output": "libpkgconf.a.p/libpkgconf_path.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_personality.c.o -MF libpkgconf.a.p/libpkgconf_personality.c.o.d -o libpkgconf.a.p/libpkgconf_personality.c.o -c ../libpkgconf/personality.c",
+    "file": "../libpkgconf/personality.c",
+    "output": "libpkgconf.a.p/libpkgconf_personality.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_pkg.c.o -MF libpkgconf.a.p/libpkgconf_pkg.c.o.d -o libpkgconf.a.p/libpkgconf_pkg.c.o -c ../libpkgconf/pkg.c",
+    "file": "../libpkgconf/pkg.c",
+    "output": "libpkgconf.a.p/libpkgconf_pkg.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_queue.c.o -MF libpkgconf.a.p/libpkgconf_queue.c.o.d -o libpkgconf.a.p/libpkgconf_queue.c.o -c ../libpkgconf/queue.c",
+    "file": "../libpkgconf/queue.c",
+    "output": "libpkgconf.a.p/libpkgconf_queue.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ilibpkgconf.a.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -fPIC -DLIBPKGCONF_EXPORT -DPKGCONFIG_IS_STATIC -MD -MQ libpkgconf.a.p/libpkgconf_tuple.c.o -MF libpkgconf.a.p/libpkgconf_tuple.c.o.d -o libpkgconf.a.p/libpkgconf_tuple.c.o -c ../libpkgconf/tuple.c",
+    "file": "../libpkgconf/tuple.c",
+    "output": "libpkgconf.a.p/libpkgconf_tuple.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ipkgconf.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -DPKGCONFIG_IS_STATIC -MD -MQ pkgconf.p/cli_main.c.o -MF pkgconf.p/cli_main.c.o.d -o pkgconf.p/cli_main.c.o -c ../cli/main.c",
+    "file": "../cli/main.c",
+    "output": "pkgconf.p/cli_main.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ipkgconf.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -DPKGCONFIG_IS_STATIC -MD -MQ pkgconf.p/cli_getopt_long.c.o -MF pkgconf.p/cli_getopt_long.c.o.d -o pkgconf.p/cli_getopt_long.c.o -c ../cli/getopt_long.c",
+    "file": "../cli/getopt_long.c",
+    "output": "pkgconf.p/cli_getopt_long.c.o"
+  },
+  {
+    "directory": "/home/notlean/openwrt-uboost/build_dir/host/pkgconf-1.9.5/openwrt-build",
+    "command": "gcc -Ipkgconf.p -I. -I.. -I/home/notlean/openwrt-uboost/staging_dir/host/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -g -D_BSD_SOURCE -D_DEFAULT_SOURCE -Wimplicit-function-declaration -Wmisleading-indentation -O2 -DPKGCONFIG_IS_STATIC -MD -MQ pkgconf.p/cli_renderer-msvc.c.o -MF pkgconf.p/cli_renderer-msvc.c.o.d -o pkgconf.p/cli_renderer-msvc.c.o -c ../cli/renderer-msvc.c",
+    "file": "../cli/renderer-msvc.c",
+    "output": "pkgconf.p/cli_renderer-msvc.c.o"
+  }
+]

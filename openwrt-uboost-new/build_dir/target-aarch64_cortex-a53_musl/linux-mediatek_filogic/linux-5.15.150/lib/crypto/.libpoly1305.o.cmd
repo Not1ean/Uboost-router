@@ -1,0 +1,1 @@
+cmd_lib/crypto/libpoly1305.o := aarch64-openwrt-linux-musl-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o lib/crypto/libpoly1305.o lib/crypto/poly1305-donna64.o lib/crypto/poly1305.o

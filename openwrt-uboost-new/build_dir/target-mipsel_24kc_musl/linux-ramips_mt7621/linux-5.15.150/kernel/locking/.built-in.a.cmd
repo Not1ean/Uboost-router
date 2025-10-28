@@ -1,0 +1,1 @@
+cmd_kernel/locking/built-in.a := echo >/dev/null; rm -f kernel/locking/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST kernel/locking/built-in.a kernel/locking/mutex.o kernel/locking/semaphore.o kernel/locking/rwsem.o kernel/locking/percpu-rwsem.o kernel/locking/spinlock.o kernel/locking/qspinlock.o kernel/locking/rtmutex_api.o kernel/locking/qrwlock.o

@@ -1,0 +1,2 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2023-09-11-f1e1e67d/mt76_connac_mcu.o /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2023-09-11-f1e1e67d/mt76_connac_mac.o /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2023-09-11-f1e1e67d/mt76_connac3_mac.o
+

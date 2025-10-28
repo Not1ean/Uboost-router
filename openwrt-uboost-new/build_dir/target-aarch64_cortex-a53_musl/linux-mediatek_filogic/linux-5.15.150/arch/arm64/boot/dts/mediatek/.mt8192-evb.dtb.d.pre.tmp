@@ -1,0 +1,6 @@
+mt8192-evb.o: arch/arm64/boot/dts/mediatek/mt8192-evb.dts \
+ arch/arm64/boot/dts/mediatek/mt8192.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt8192-pinfunc.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h

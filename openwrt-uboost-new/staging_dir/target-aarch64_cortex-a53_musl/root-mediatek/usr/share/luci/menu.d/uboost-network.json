@@ -1,0 +1,40 @@
+{
+	"admin/network": {
+		"title": "Network",
+		"order": 3,
+		"children": {
+			"admin/network/network": {
+				"title": "Interfaces",
+				"order": 1,
+				"action": {
+					"type": "view",
+					"path": "network/network"
+				}
+			},
+			"admin/network/wireless": {
+				"title": "Wireless",
+				"order": 2,
+				"action": {
+					"type": "view",
+					"path": "network/wireless"
+				}
+			},
+			"admin/network/dhcp": {
+				"title": "DHCP/DNS",
+				"order": 3,
+				"action": {
+					"type": "view",
+					"path": "network/dhcp"
+				}
+			},
+			"admin/network/diagnostics": {
+				"title": "Diagnostics",
+				"order": 4,
+				"action": {
+					"type": "view",
+					"path": "network/diagnostics"
+				}
+			}
+		}
+	}
+}

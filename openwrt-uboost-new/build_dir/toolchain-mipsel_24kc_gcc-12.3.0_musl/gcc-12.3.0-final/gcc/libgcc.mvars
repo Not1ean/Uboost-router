@@ -1,0 +1,4 @@
+GCC_CFLAGS = -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -minterlink-mips16 -g -Os -DIN_GCC  -DCROSS_DIRECTORY_STRUCTURE  -W -Wall -Wno-narrowing -Wwrite-strings -Wcast-qual -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition  -isystem ./include 
+INHIBIT_LIBC_CFLAGS = 
+TARGET_SYSTEM_ROOT = 
+NO_PIE_CFLAGS = 

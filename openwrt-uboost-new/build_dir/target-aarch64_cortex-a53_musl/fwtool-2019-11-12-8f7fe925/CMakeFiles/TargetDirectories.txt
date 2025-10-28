@@ -1,0 +1,7 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/fwtool.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/fwtool-2019-11-12-8f7fe925/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+drivers/net/ppp/ppp_generic.ko
+drivers/net/ppp/ppp_async.ko
+drivers/net/ppp/pppox.ko
+drivers/net/ppp/pppoe.ko

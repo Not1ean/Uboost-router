@@ -1,0 +1,5 @@
+# ninja log v5
+2	121	1761098229028537724	CMakeFiles/urngd.dir/urngd.c.o	71019b1919881f80
+122	296	1761098229205537557	CMakeFiles/urngd.dir/3rdparty/jitterentropy-rngd/jitterentropy-base.c.o	fd38864d3508a191
+296	312	1761098229222537541	urngd	4731e469ee66fa6b
+2	14	0	CMakeFiles/install.util	72d37893a3c97af8

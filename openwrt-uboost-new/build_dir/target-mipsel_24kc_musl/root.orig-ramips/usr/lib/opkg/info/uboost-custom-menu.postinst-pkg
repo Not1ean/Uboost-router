@@ -1,0 +1,6 @@
+#!/bin/sh
+# Удаляем стандартные меню которые не нужны (выполняется после установки)
+rm -f /usr/share/luci/menu.d/luci-app-firewall.json
+rm -f /usr/share/luci/menu.d/luci-app-opkg.json
+rm -f /usr/share/luci/menu.d/luci-app-statistics.json
+exit 0

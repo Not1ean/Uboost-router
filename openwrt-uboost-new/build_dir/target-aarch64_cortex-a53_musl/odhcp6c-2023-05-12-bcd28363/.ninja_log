@@ -1,0 +1,7 @@
+# ninja log v5
+1	652	1761098223599542824	CMakeFiles/odhcp6c.dir/src/odhcp6c.c.o	f9929bcaa26d9d4e
+653	1763	1761098224709541783	CMakeFiles/odhcp6c.dir/src/dhcpv6.c.o	535cfe8e03ed9991
+1763	2196	1761098225142541377	CMakeFiles/odhcp6c.dir/src/ra.c.o	7986d1542fed8c60
+2196	2592	1761098225538541005	CMakeFiles/odhcp6c.dir/src/script.c.o	6d2fbc6d1b7057cf
+2592	2629	1761098225576540969	odhcp6c	74d96c5c98a240ec
+2	12	0	CMakeFiles/install.util	7cc28dda211c9180

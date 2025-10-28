@@ -1,0 +1,1 @@
+cmd_lib/crypto/modules.order := {   echo lib/crypto/libchacha.ko;   echo lib/crypto/libchacha20poly1305.ko;   echo lib/crypto/libcurve25519-generic.ko;   echo lib/crypto/libcurve25519.ko;   echo lib/crypto/libdes.ko;   echo lib/crypto/libpoly1305.ko; :; } | awk '!x[$$0]++' - > lib/crypto/modules.order

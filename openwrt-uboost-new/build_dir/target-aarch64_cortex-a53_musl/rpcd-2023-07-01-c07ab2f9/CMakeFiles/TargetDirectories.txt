@@ -1,0 +1,11 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/rpcd.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/file_plugin.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/rpcsys_plugin.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/iwinfo_plugin.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/ucode_plugin.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-2023-07-01-c07ab2f9/CMakeFiles/install/strip.dir

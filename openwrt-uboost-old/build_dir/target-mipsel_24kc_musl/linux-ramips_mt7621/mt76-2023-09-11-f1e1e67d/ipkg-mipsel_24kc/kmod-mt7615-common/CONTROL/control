@@ -1,0 +1,12 @@
+Package: kmod-mt7615-common
+Version: 5.15.150+2023-09-11-f1e1e67d-1
+Depends: kernel (=5.15.150-1-d8f5fc93a604f67f00a8f9692e7fa577), kmod-mac80211, kmod-mt76-core, kmod-mt76-connac, kmod-hwmon-core
+Source: package/kernel/mt76
+SourceName: kmod-mt7615-common
+License: GPLv2
+Section: kernel
+SourceDateEpoch: 1711145382
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_24kc
+Installed-Size: 44011
+Description:  MediaTek MT7615 wireless driver common code

@@ -1,0 +1,10 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/pcre2-8-static.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/pcre2-posix-static.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/pcre2-8-shared.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/pcre2-posix-shared.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/pcre2-10.42/CMakeFiles/install/strip.dir

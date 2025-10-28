@@ -1,0 +1,557 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      The target system is: Linux - 1 - aarch64
+      The host system is: Linux - 6.14.0-33-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc 
+      Build flags: -Os;-pipe;-mcpu=cortex-a53;-fno-caller-saves;-fno-plt;-fhonour-copts;-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42;-Wformat;-Werror=format-security;-fstack-protector;-D_FORTIFY_SOURCE=1;-Wl,-z,now;-Wl,-z,relro;
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-2haMpj"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-2haMpj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-2haMpj
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_82215 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -v -o CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o -c /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/specs
+        COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc
+        Target: aarch64-openwrt-linux-musl
+        Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) 
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_82215.dir/'
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/cc1 -quiet -v -idirafter /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include -D _FORTIFY_SOURCE=1 /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_82215.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -Os -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -fstack-protector -o - |
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.40.0 (aarch64-openwrt-linux-musl) using BFD version (GNU Binutils) 2.40.0
+        GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (aarch64-openwrt-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/sys-include
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/include
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/include
+         /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include
+        End of search list.
+        GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (aarch64-openwrt-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2edb7f2a6d85720e2a765715bb0b1ef1
+        COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/bin/
+        LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro -v  -rdynamic CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o -o cmTC_82215   && :
+        Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/specs
+        COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc
+        COLLECT_LTO_WRAPPER=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/lto-wrapper
+        Target: aarch64-openwrt-linux-musl
+        Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) 
+        COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/bin/
+        LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_82215' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_82215.'
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/collect2 -plugin /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/liblto_plugin.so -plugin-opt=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/lto-wrapper -plugin-opt=-fresolution=/home/notlean/openwrt-uboost/tmp/ccvubmec.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -o cmTC_82215 -z now -z relro /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crt1.o /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crti.o /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtbegin.o -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -L /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib -rpath-link /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0 -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib -z now -z relro CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtend.o /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_82215' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_82215.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/sys-include]
+          add: [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/include]
+          add: [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/include]
+          add: [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include]
+        end of search list found
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/sys-include] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/sys-include]
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/include] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/include]
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/include] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/include]
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include] ==> [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include]
+        implicit include dirs: [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/sys-include;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/include;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/include;/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-openwrt-linux-musl-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-2haMpj]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_82215 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl -z now -Wl -z relro    -v -o CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o -c /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/specs]
+        ignore line: [COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc]
+        ignore line: [Target: aarch64-openwrt-linux-musl]
+        ignore line: [Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_82215.dir/']
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/cc1 -quiet -v -idirafter /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include -D _FORTIFY_SOURCE=1 /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_82215.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -Os -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -fstack-protector -o - |]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.40.0 (aarch64-openwrt-linux-musl) using BFD version (GNU Binutils) 2.40.0]
+        ignore line: [GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (aarch64-openwrt-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/sys-include]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/include]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/include]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (aarch64-openwrt-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2edb7f2a6d85720e2a765715bb0b1ef1]
+        ignore line: [COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl -z now -Wl -z relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro -v  -rdynamic CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o -o cmTC_82215   && :]
+        ignore line: [Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/specs]
+        ignore line: [COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-openwrt-linux-musl]
+        ignore line: [Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) ]
+        ignore line: [COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mcpu=cortex-a53' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_82215' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_82215.']
+        link line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/collect2 -plugin /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/liblto_plugin.so -plugin-opt=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/lto-wrapper -plugin-opt=-fresolution=/home/notlean/openwrt-uboost/tmp/ccvubmec.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -o cmTC_82215 -z now -z relro /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crt1.o /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crti.o /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtbegin.o -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -L /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib -rpath-link /home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0 -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib -z now -z relro CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtend.o /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crtn.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/libexec/gcc/aarch64-openwrt-linux-musl/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/home/notlean/openwrt-uboost/tmp/ccvubmec.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_82215] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crt1.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crt1.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crti.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crti.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtbegin.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtbegin.o]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib]
+          arg [-rpath-link] ==> ignore
+          arg [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib] ==> ignore
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib]
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [CMakeFiles/cmTC_82215.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtend.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtend.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crtn.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crtn.o]
+        collapse obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crt1.o] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib/crt1.o]
+        collapse obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crti.o] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib/crti.o]
+        collapse obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib/crtn.o] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib/crtn.o]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/../../../../aarch64-openwrt-linux-musl/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib]
+        implicit libs: [ssp_nonshared;gcc_s;c;gcc_s]
+        implicit objs: [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib/crt1.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib/crti.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtbegin.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0/crtend.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib/crtn.o]
+        implicit dirs: [/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib;/home/notlean/openwrt-uboost/staging_dir/target-aarch64_cortex-a53_musl/usr/lib;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib/gcc/aarch64-openwrt-linux-musl/12.3.0;/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/aarch64-openwrt-linux-musl/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:141 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for dirent.h"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-jNqSvh"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-jNqSvh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-jNqSvh
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_eb00f && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_eb00f.dir/CheckIncludeFile.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-jNqSvh/CheckIncludeFile.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_eb00f.dir/CheckIncludeFile.c.o -o cmTC_eb00f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:142 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-3Zb0pw"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-3Zb0pw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-3Zb0pw
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_32c5b && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_32c5b.dir/CheckIncludeFile.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-3Zb0pw/CheckIncludeFile.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_32c5b.dir/CheckIncludeFile.c.o -o cmTC_32c5b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:143 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-UC2gBf"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-UC2gBf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-UC2gBf
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_cc202 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_cc202.dir/CheckIncludeFile.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-UC2gBf/CheckIncludeFile.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_cc202.dir/CheckIncludeFile.c.o -o cmTC_cc202   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:144 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-EAaxpk"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-EAaxpk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-EAaxpk
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_e86d9 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_e86d9.dir/CheckIncludeFile.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-EAaxpk/CheckIncludeFile.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_e86d9.dir/CheckIncludeFile.c.o -o cmTC_e86d9   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:145 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for windows.h"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-gmGTGT"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-gmGTGT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-gmGTGT
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_b6ab8 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_b6ab8.dir/CheckIncludeFile.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-gmGTGT/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_b6ab8.dir/CheckIncludeFile.c.o 
+        /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_b6ab8.dir/CheckIncludeFile.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-gmGTGT/CheckIncludeFile.c
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-gmGTGT/CheckIncludeFile.c:1:10: fatal error: windows.h: No such file or directory
+            1 | #include <windows.h>
+              |          ^~~~~~~~~~~
+        compilation terminated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:147 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for bcopy"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-JRRlJa"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-JRRlJa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_BCOPY"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-JRRlJa
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_5fd27 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_5fd27.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-JRRlJa/CheckSymbolExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_5fd27.dir/CheckSymbolExists.c.o -o cmTC_5fd27   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:148 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for memfd_create"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_MEMFD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_04e79 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_04e79.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6/CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_04e79.dir/CheckSymbolExists.c.o 
+        /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_04e79.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6/CheckSymbolExists.c
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6/CheckSymbolExists.c: In function 'main':
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6/CheckSymbolExists.c:8:19: error: 'memfd_create' undeclared (first use in this function)
+            8 |   return ((int*)(&memfd_create))[argc];
+              |                   ^~~~~~~~~~~~
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-GmHtz6/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:149 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for memmove"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-mMOEE2"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-mMOEE2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_MEMMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-mMOEE2
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_a40ff && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_a40ff.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-mMOEE2/CheckSymbolExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_a40ff.dir/CheckSymbolExists.c.o -o cmTC_a40ff   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:150 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for secure_getenv"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_SECURE_GETENV"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_a6c9c && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_a6c9c.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ/CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_a6c9c.dir/CheckSymbolExists.c.o 
+        /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_a6c9c.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ/CheckSymbolExists.c
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ/CheckSymbolExists.c: In function 'main':
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ/CheckSymbolExists.c:8:19: error: 'secure_getenv' undeclared (first use in this function)
+            8 |   return ((int*)(&secure_getenv))[argc];
+              |                   ^~~~~~~~~~~~~
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-ubQ9mQ/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:151 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-VoD0ak"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-VoD0ak"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-VoD0ak
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_7b6ad && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc   -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_7b6ad.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-VoD0ak/CheckSymbolExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_7b6ad.dir/CheckSymbolExists.c.o -o cmTC_7b6ad   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:153 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE_REALPATH"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-DIgm1f"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-DIgm1f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_REALPATH"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-DIgm1f
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_28e20 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -DHAVE_REALPATH  -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_28e20.dir/src.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-DIgm1f/src.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_28e20.dir/src.c.o -o cmTC_28e20   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:162 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_UNINITIALIZED"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-1bWZXe"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-1bWZXe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_UNINITIALIZED"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-1bWZXe
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_26d84 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -DHAVE_ATTRIBUTE_UNINITIALIZED  -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Werror -o CMakeFiles/cmTC_26d84.dir/src.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-1bWZXe/src.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -Werror -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_26d84.dir/src.c.o -o cmTC_26d84   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:172 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test INTEL_CET_ENABLED"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-KN3lTV"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-KN3lTV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_MODULE_PATH: "/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/cmake"
+    buildResult:
+      variable: "INTEL_CET_ENABLED"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-KN3lTV
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_2e2e7 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -DINTEL_CET_ENABLED  -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_2e2e7.dir/src.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-KN3lTV/src.c
+        FAILED: CMakeFiles/cmTC_2e2e7.dir/src.c.o 
+        /home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/bin/aarch64-openwrt-linux-musl-gcc -DINTEL_CET_ENABLED  -Os -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42=pcre2-10.42 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_2e2e7.dir/src.c.o -c /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-KN3lTV/src.c
+        /home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/pcre2-10.42/CMakeFiles/CMakeScratch/TryCompile-KN3lTV/src.c:2:5: error: #error CET is not enabled
+            2 |    #error CET is not enabled
+              |     ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

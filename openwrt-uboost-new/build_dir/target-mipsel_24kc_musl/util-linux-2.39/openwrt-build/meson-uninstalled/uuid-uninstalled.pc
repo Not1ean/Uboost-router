@@ -1,0 +1,10 @@
+prefix=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/util-linux-2.39/openwrt-build
+srcdir=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/util-linux-2.39
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.39.0
+Libs: -L${prefix}/libuuid -luuid
+Cflags: -I${prefix}/libuuid -I${srcdir}/libuuid -I${prefix}/include -I${srcdir}/include -I${prefix}/libuuid/src -I${srcdir}/libuuid/src

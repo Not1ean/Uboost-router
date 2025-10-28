@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set.o := mipsel-openwrt-linux-musl-ld -m elf32ltsmip -z noexecstack --no-warn-rwx-segments   -r -o net/netfilter/ipset/ip_set.o net/netfilter/ipset/ip_set_core.o net/netfilter/ipset/ip_set_getport.o net/netfilter/ipset/pfxlen.o

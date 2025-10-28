@@ -1,0 +1,1 @@
+cmd_arch/mips/boot/compressed/vmlinux.bin := mipsel-openwrt-linux-musl-objcopy --remove-section=.reginfo --remove-section=.reginfo -O binary -R .comment -S vmlinux arch/mips/boot/compressed/vmlinux.bin

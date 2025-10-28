@@ -1,0 +1,11 @@
+Package: mt7981-wo-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mt7981-wo-firmware
+Section: firmware
+SourceDateEpoch: 1692112565
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 52120
+Description:  MT7981 offload firmware

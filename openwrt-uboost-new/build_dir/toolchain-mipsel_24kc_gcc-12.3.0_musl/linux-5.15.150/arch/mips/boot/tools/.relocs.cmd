@@ -1,0 +1,1 @@
+cmd_arch/mips/boot/tools/relocs := gcc -L/home/notlean/openwrt-uboost/staging_dir/host/lib -o arch/mips/boot/tools/relocs arch/mips/boot/tools/relocs_32.o arch/mips/boot/tools/relocs_64.o arch/mips/boot/tools/relocs_main.o   

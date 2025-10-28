@@ -1,0 +1,568 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: Linux - 1 - mipsel
+      The host system is: Linux - 6.14.0-33-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc 
+      Build flags: -Os;-pipe;-mno-branch-likely;-mips32r2;-mtune=24kc;-fno-caller-saves;-fno-plt;-fhonour-copts;-msoft-float;-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02;-mips16;-minterlink-mips16;-Wformat;-Werror=format-security;-fstack-protector;-D_FORTIFY_SOURCE=1;-Wl,-z,now;-Wl,-z,relro;
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-jTKhcW"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-jTKhcW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-jTKhcW
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_f1d54 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -v -o CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o -c /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/specs
+        COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc
+        Target: mipsel-openwrt-linux-musl
+        Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=mipsel-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-float=soft --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-mips-plt CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) 
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'CMakeFiles/cmTC_f1d54.dir/'
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/cc1 -quiet -v -idirafter /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include -D _FORTIFY_SOURCE=1 /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c -mel -quiet -dumpdir CMakeFiles/cmTC_f1d54.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-branch-likely -mips32r2 -mtune=24kc -msoft-float -mips16 -minterlink-mips16 -mllsc -mplt -mno-shared -mabi=32 -Os -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -fstack-protector -o - |
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/as -v -EL -mips32r2 -mips16 -O2 -mabi=32 -mno-shared -mtune=24kc -msoft-float -call_nonpic -o CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o
+        GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (mipsel-openwrt-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/sys-include
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/include
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/include
+         /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include
+        End of search list.
+        GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (mipsel-openwrt-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        GNU assembler version 2.40.0 (mipsel-openwrt-linux-musl) using BFD version (GNU Binutils) 2.40.0
+        Compiler executable checksum: f302f54193678b10e7c6fb8ab9494f0e
+        COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/
+        LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro -v CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o -o cmTC_f1d54   && :
+        Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/specs
+        COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc
+        COLLECT_LTO_WRAPPER=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/lto-wrapper
+        Target: mipsel-openwrt-linux-musl
+        Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=mipsel-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-float=soft --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-mips-plt CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) 
+        COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/
+        LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib' '-z' 'now' '-z' 'relro' '-v' '-o' 'cmTC_f1d54' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'cmTC_f1d54.'
+         /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/collect2 -plugin /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/liblto_plugin.so -plugin-opt=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/lto-wrapper -plugin-opt=-fresolution=/home/notlean/openwrt-uboost/tmp/ccrWXTlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -EL -mips32r2 -mips16 -dynamic-linker /lib/ld-musl-mipsel-sf.so.1 -melf32ltsmip -o cmTC_f1d54 -z now -z relro /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crt1.o /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crti.o /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtbegin.o -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -L /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib -rpath-link /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0 -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib -z now -z relro CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtend.o /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib' '-z' 'now' '-z' 'relro' '-v' '-o' 'cmTC_f1d54' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'cmTC_f1d54.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/sys-include]
+          add: [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/include]
+          add: [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/include]
+          add: [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include]
+        end of search list found
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/sys-include] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/sys-include]
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/include] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/include]
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/include] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/include]
+        collapse include dir [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include] ==> [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include]
+        implicit include dirs: [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/sys-include;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/include;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/include;/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(mipsel-openwrt-linux-musl-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-jTKhcW]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_f1d54 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl -z now -Wl -z relro    -v -o CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o -c /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/specs]
+        ignore line: [COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc]
+        ignore line: [Target: mipsel-openwrt-linux-musl]
+        ignore line: [Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=mipsel-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-float=soft --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-mips-plt CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'CMakeFiles/cmTC_f1d54.dir/']
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/cc1 -quiet -v -idirafter /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include -D _FORTIFY_SOURCE=1 /home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeCCompilerABI.c -mel -quiet -dumpdir CMakeFiles/cmTC_f1d54.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-branch-likely -mips32r2 -mtune=24kc -msoft-float -mips16 -minterlink-mips16 -mllsc -mplt -mno-shared -mabi=32 -Os -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -fstack-protector -o - |]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/as -v -EL -mips32r2 -mips16 -O2 -mabi=32 -mno-shared -mtune=24kc -msoft-float -call_nonpic -o CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (mipsel-openwrt-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/sys-include]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/include]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/include]
+        ignore line: [ /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) version 12.3.0 (mipsel-openwrt-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [GNU assembler version 2.40.0 (mipsel-openwrt-linux-musl) using BFD version (GNU Binutils) 2.40.0]
+        ignore line: [Compiler executable checksum: f302f54193678b10e7c6fb8ab9494f0e]
+        ignore line: [COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o' '-c' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl -z now -Wl -z relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro -v CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o -o cmTC_f1d54   && :]
+        ignore line: [Reading specs from /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/specs]
+        ignore line: [COLLECT_GCC=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/lto-wrapper]
+        ignore line: [Target: mipsel-openwrt-linux-musl]
+        ignore line: [Configured with: /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 12.3.0 r23809-234f1a2efa' --prefix=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=mipsel-openwrt-linux-musl --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-float=soft --with-system-zlib=/home/notlean/openwrt-uboost/staging_dir/host --with-zstd=/home/notlean/openwrt-uboost/staging_dir/host --with-gmp=/home/notlean/openwrt-uboost/staging_dir/host --with-mpfr=/home/notlean/openwrt-uboost/staging_dir/host --with-mpc=/home/notlean/openwrt-uboost/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-mips-plt CFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' CXXFLAGS='-O2 -I/home/notlean/openwrt-uboost/staging_dir/host/include  -pipe' 'CFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'CXXFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' 'GOCFLAGS_FOR_TARGET=-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro' --with-headers=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib --enable-plugins --enable-lto --with-libelf=/home/notlean/openwrt-uboost/staging_dir/host --disable-libsanitizer]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.3.0 (OpenWrt GCC 12.3.0 r23809-234f1a2efa) ]
+        ignore line: [COMPILER_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/:/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-mno-branch-likely' '-mips32r2' '-mtune=24kc' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-msoft-float' '-fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02' '-mips16' '-minterlink-mips16' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib' '-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib' '-z' 'now' '-z' 'relro' '-v' '-o' 'cmTC_f1d54' '-mllsc' '-mplt' '-mno-shared' '-EL' '-mabi=32' '-dumpdir' 'cmTC_f1d54.']
+        link line: [ /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/collect2 -plugin /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/liblto_plugin.so -plugin-opt=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/lto-wrapper -plugin-opt=-fresolution=/home/notlean/openwrt-uboost/tmp/ccrWXTlj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -EL -mips32r2 -mips16 -dynamic-linker /lib/ld-musl-mipsel-sf.so.1 -melf32ltsmip -o cmTC_f1d54 -z now -z relro /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crt1.o /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crti.o /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtbegin.o -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -L /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib -rpath-link /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0 -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib -z now -z relro CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtend.o /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crtn.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/libexec/gcc/mipsel-openwrt-linux-musl/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/home/notlean/openwrt-uboost/tmp/ccrWXTlj.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-mips32r2] ==> ignore
+          arg [-mips16] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-mipsel-sf.so.1] ==> ignore
+          arg [-melf32ltsmip] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f1d54] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crt1.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crt1.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crti.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crti.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtbegin.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtbegin.o]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib]
+          arg [-rpath-link] ==> ignore
+          arg [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib] ==> ignore
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0]
+          arg [-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib] ==> dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib]
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [CMakeFiles/cmTC_f1d54.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtend.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtend.o]
+          arg [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crtn.o] ==> obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crtn.o]
+        collapse obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crt1.o] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib/crt1.o]
+        collapse obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crti.o] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib/crti.o]
+        collapse obj [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib/crtn.o] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib/crtn.o]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0]
+        collapse library dir [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/lib] ==> [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib]
+        implicit libs: [ssp_nonshared;gcc_s;c;gcc_s]
+        implicit objs: [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib/crt1.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib/crti.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtbegin.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/crtend.o;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib/crtn.o]
+        implicit dirs: [/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib;/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0;/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/mipsel-openwrt-linux-musl/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:95 (check_function_exists)"
+    checks:
+      - "Looking for dlopen"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-GWu0HD"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-GWu0HD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "DLOPEN_FUNCTION_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-GWu0HD
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_a01c5 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_a01c5.dir/CheckFunctionExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-GWu0HD/CheckFunctionExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=dlopen -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_a01c5.dir/CheckFunctionExists.c.o -o cmTC_a01c5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:100 (check_function_exists)"
+    checks:
+      - "Looking for fmod"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Rt2pG"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Rt2pG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "FMOD_FUNCTION_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Rt2pG
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_cf567 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=fmod -o CMakeFiles/cmTC_cf567.dir/CheckFunctionExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Rt2pG/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'fmod'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+        /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Rt2pG/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Rt2pG/CheckFunctionExists.c:1:1: note: 'fmod' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=fmod -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_cf567.dir/CheckFunctionExists.c.o -o cmTC_cf567   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:107 (check_symbol_exists)"
+    checks:
+      - "Looking for json_tokener_get_parse_end"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-m2VHWy"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-m2VHWy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_PARSE_END"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-m2VHWy
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_f20d7 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc  -I/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include/json-c -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_f20d7.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-m2VHWy/CheckSymbolExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_f20d7.dir/CheckSymbolExists.c.o -o cmTC_f20d7  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libjson-c.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:111 (check_symbol_exists)"
+    checks:
+      - "Looking for json_object_new_array_ext"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-WEPDsZ"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-WEPDsZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_ARRAY_EXT"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-WEPDsZ
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_9f033 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc  -I/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include/json-c -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_9f033.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-WEPDsZ/CheckSymbolExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_9f033.dir/CheckSymbolExists.c.o -o cmTC_9f033  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libjson-c.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:115 (check_symbol_exists)"
+    checks:
+      - "Looking for json_object_new_uint64"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-repFJ1"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-repFJ1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_JSON_UINT64"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-repFJ1
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_1f9f3 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc  -I/home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/include/json-c -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_1f9f3.dir/CheckSymbolExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-repFJ1/CheckSymbolExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_1f9f3.dir/CheckSymbolExists.c.o -o cmTC_1f9f3  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libjson-c.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:167 (try_compile)"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_NEW_UBUS_STATUS_CODES"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_9e05f && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_9e05f.dir/test.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp/test.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_9e05f.dir/test.c.o -o cmTC_9e05f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:240 (check_function_exists)"
+    checks:
+      - "Looking for uloop_timeout_remaining64"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-0Vc7C5"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-0Vc7C5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "REMAINING64_FUNCTION_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-0Vc7C5
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_cba19 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_timeout_remaining64 -o CMakeFiles/cmTC_cba19.dir/CheckFunctionExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-0Vc7C5/CheckFunctionExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_timeout_remaining64 -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_cba19.dir/CheckFunctionExists.c.o -o cmTC_cba19  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libubox.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:241 (check_function_exists)"
+    checks:
+      - "Looking for uloop_interval_set"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-zAiuhi"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-zAiuhi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "INTERVAL_FUNCTION_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-zAiuhi
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_fa0db && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_interval_set -o CMakeFiles/cmTC_fa0db.dir/CheckFunctionExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-zAiuhi/CheckFunctionExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_interval_set -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_fa0db.dir/CheckFunctionExists.c.o -o cmTC_fa0db  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libubox.so && :
+        FAILED: cmTC_fa0db 
+        : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_interval_set -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_fa0db.dir/CheckFunctionExists.c.o -o cmTC_fa0db  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libubox.so && :
+        /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/ld: CMakeFiles/cmTC_fa0db.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text.startup+0x4): undefined reference to `uloop_interval_set'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:242 (check_function_exists)"
+    checks:
+      - "Looking for uloop_signal_add"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-rsYKlP"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-rsYKlP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "SIGNAL_FUNCTION_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-rsYKlP
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_2b174 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_signal_add -o CMakeFiles/cmTC_2b174.dir/CheckFunctionExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-rsYKlP/CheckFunctionExists.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_signal_add -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_2b174.dir/CheckFunctionExists.c.o -o cmTC_2b174  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libubox.so && :
+        FAILED: cmTC_2b174 
+        : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=uloop_signal_add -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_2b174.dir/CheckFunctionExists.c.o -o cmTC_2b174  /home/notlean/openwrt-uboost/staging_dir/target-mipsel_24kc_musl/usr/lib/libubox.so && :
+        /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/12.3.0/../../../../mipsel-openwrt-linux-musl/bin/ld: CMakeFiles/cmTC_2b174.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text.startup+0x4): undefined reference to `uloop_signal_add'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:149 (check_function_exists)"
+    checks:
+      - "Looking for ceil"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Tz72F"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Tz72F"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "CEIL_FUNCTION_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Tz72F
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_e6a6d && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=ceil -o CMakeFiles/cmTC_e6a6d.dir/CheckFunctionExists.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Tz72F/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'ceil'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+        /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Tz72F/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeScratch/TryCompile-8Tz72F/CheckFunctionExists.c:1:1: note: 'ceil' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=ceil -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_e6a6d.dir/CheckFunctionExists.c.o -o cmTC_e6a6d   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:167 (try_compile)"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_NEW_UBUS_STATUS_CODES"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_7d2df && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_7d2df.dir/test.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp/test.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_7d2df.dir/test.c.o -o cmTC_7d2df   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:167 (try_compile)"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_NEW_UBUS_STATUS_CODES"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_16b50 && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_16b50.dir/test.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp/test.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_16b50.dir/test.c.o -o cmTC_16b50   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:167 (try_compile)"
+    directories:
+      source: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+      binary: "/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro"
+    buildResult:
+      variable: "HAVE_NEW_UBUS_STATUS_CODES"
+      cached: true
+      stdout: |
+        Change Dir: /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/notlean/openwrt-uboost/staging_dir/host/bin/ninja -v cmTC_7c25a && [1/2] /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_7c25a.dir/test.c.o -c /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02/CMakeFiles/CMakeTmp/test.c
+        [2/2] : && /home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/bin/mipsel-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -fmacro-prefix-map=/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/ucode-2023-11-07-a6e75e02=ucode-2023-11-07-a6e75e02 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro CMakeFiles/cmTC_7c25a.dir/test.c.o -o cmTC_7c25a   && :
+        
+      exitCode: 0
+...

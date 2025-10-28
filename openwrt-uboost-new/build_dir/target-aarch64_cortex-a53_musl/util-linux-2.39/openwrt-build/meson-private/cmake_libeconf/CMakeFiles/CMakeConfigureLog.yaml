@@ -1,0 +1,12 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/notlean/openwrt-uboost/staging_dir/host/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - aarch64
+      The host system is: Linux - 6.14.0-33-generic - x86_64
+...

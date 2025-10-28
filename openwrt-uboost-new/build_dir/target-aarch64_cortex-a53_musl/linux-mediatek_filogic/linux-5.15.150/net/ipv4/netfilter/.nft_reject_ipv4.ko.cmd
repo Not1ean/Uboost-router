@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nft_reject_ipv4.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/nft_reject_ipv4.ko net/ipv4/netfilter/nft_reject_ipv4.o net/ipv4/netfilter/nft_reject_ipv4.mod.o;  true

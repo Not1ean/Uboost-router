@@ -1,0 +1,5 @@
+/usr/libexec/uboot-api/dpi-manager.sh
+/usr/libexec/uboot-api/vpn-manager.sh
+/usr/libexec/uboot-api/payment-checker.sh
+/etc/config/uboot-integration
+/etc/uci-defaults/99-uboot-integration

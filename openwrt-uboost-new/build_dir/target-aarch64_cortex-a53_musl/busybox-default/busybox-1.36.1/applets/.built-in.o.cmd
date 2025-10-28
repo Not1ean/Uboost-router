@@ -1,0 +1,1 @@
+cmd_applets/built-in.o :=  aarch64-openwrt-linux-musl-gcc -nostdlib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/usr/lib -L/home/notlean/openwrt-uboost/staging_dir/toolchain-aarch64_cortex-a53_gcc-12.3.0_musl/lib -flto=auto -fuse-linker-plugin -znow -zrelro -r -o applets/built-in.o applets/applets.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireguard/wireguard.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireguard/wireguard.ko drivers/net/wireguard/wireguard.o drivers/net/wireguard/wireguard.mod.o;  true

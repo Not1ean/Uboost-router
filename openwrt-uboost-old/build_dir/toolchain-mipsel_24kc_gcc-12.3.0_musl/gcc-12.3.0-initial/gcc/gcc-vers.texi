@@ -1,0 +1,5 @@
+@set version-GCC 12.3.0
+@clear DEVELOPMENT
+@set srcdir /home/notlean/openwrt-uboost/build_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/gcc-12.3.0/gcc
+@set VERSION_PACKAGE (OpenWrt GCC 12.3.0 r23809-234f1a2efa) 
+@set BUGURL @uref{http://bugs.openwrt.org/}

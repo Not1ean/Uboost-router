@@ -1,0 +1,12 @@
+Package: uboot-router-api
+Version: 1.0-1
+Depends: libc, luci-base, luci-theme-argon, custom-theme, lua, luci-lib-jsonc, luci-compat
+Source: package/uboot-router-api
+SourceName: uboot-router-api
+License: MIT
+Section: utils
+SourceDateEpoch: 1760580457
+Maintainer: Uboost Team <dev@uboost.com>
+Architecture: all
+Installed-Size: 15636
+Description:  Uboost Router management interface with VPN and YouTube free access

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_flow_offload.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_flow_offload.ko net/netfilter/nft_flow_offload.o net/netfilter/nft_flow_offload.mod.o;  true

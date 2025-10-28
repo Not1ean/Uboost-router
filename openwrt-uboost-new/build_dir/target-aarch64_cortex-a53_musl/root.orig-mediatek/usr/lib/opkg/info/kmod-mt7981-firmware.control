@@ -1,0 +1,12 @@
+Package: kmod-mt7981-firmware
+Version: 5.15.150+2023-09-11-f1e1e67d-1
+Depends: kernel (=5.15.150-1-ea516807a10d4d2bef0215534bda477f)
+Source: package/kernel/mt76
+SourceName: kmod-mt7981-firmware
+License: GPLv2
+Section: kernel
+SourceDateEpoch: 1711145382
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 698549
+Description:  MediaTek MT7981 firmware

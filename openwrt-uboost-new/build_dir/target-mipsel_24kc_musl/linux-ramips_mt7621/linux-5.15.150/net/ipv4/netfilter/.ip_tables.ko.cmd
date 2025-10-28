@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ip_tables.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/ip_tables.ko net/ipv4/netfilter/ip_tables.o net/ipv4/netfilter/ip_tables.mod.o;  make -f ./arch/mips/Makefile.postlink net/ipv4/netfilter/ip_tables.ko

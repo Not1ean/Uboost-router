@@ -1,0 +1,16 @@
+./
+./host
+./usr
+./usr/sbin
+./usr/sbin/ubusd
+./usr/lib
+./usr/lib/libubus.so.20230605
+./usr/lib/lua
+./usr/lib/lua/ubus.so
+./usr/lib/libubus.so
+./usr/include
+./usr/include/ubus_common.h
+./usr/include/libubus.h
+./usr/include/ubusmsg.h
+./usr/bin
+./usr/bin/ubus

@@ -1,0 +1,1 @@
+/home/notlean/openwrt-uboost/staging_dir/host/share/aclocal/ltversion.m4

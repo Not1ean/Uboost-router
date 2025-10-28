@@ -1,0 +1,26 @@
+#!/bin/sh
+# check if we are on real system
+if [ -z "${IPKG_INSTROOT}" ]; then
+	if [ -f "/etc/init.d/zapret" ]; then
+		SCRIPT=$( readlink /etc/init.d/zapret )
+		if [ -n "${SCRIPT}" ]; then
+			echo "Please uninstall original zapret utility!"
+			exit 44
+		fi
+	fi
+	if [ "${PKG_UPGRADE}" = "1" ]; then
+		# stop service if PKG_UPGRADE
+		if [ -x "/etc/init.d/zapret" ]; then
+			/etc/init.d/zapret running && /etc/init.d/zapret stop >/dev/null 2>&1
+		fi
+	fi
+	if [ ! -f "/opt/zapret/ipset/zapret-hosts-google.txt" ]; then
+		if [ -f "/opt/zapret/ipset/zapret-hosts-user.txt" ]; then
+			CFGLISTHASH=$( md5sum "/opt/zapret/ipset/zapret-hosts-user.txt" | awk '{print $1;}' )
+			if [ "${CFGLISTHASH}" = "79e35df62b0d1ae455d0a7e04c4cecac" ]; then
+				rm -f "/opt/zapret/ipset/zapret-hosts-user.txt"
+			fi
+		fi
+	fi
+fi
+exit 0

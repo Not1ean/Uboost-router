@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ip_tables.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/ip_tables.ko net/ipv4/netfilter/ip_tables.o net/ipv4/netfilter/ip_tables.mod.o;  true

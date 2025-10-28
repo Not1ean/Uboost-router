@@ -1,0 +1,1 @@
+cmd_drivers/mtd/parsers/built-in.a := echo >/dev/null; rm -f drivers/mtd/parsers/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/mtd/parsers/built-in.a drivers/mtd/parsers/cmdlinepart.o drivers/mtd/parsers/ofpart_core.o drivers/mtd/parsers/scpart.o drivers/mtd/parsers/routerbootpart.o

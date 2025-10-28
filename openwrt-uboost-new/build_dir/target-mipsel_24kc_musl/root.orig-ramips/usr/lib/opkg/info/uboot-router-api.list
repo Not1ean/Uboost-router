@@ -1,0 +1,15 @@
+/usr/libexec/uboot-api/otp-verifier.sh
+/etc/init.d/uboot-api
+/etc/config/uboot-vpn
+/www/luci-static/resources/uboot/uboot.js
+/etc/uci-defaults/99_uboot-api
+/www/luci-static/resources/uboot/uboot.css
+/usr/lib/lua/luci/controller/uboot.lua
+/etc/uci-defaults/98-uboost-wifi
+/usr/libexec/uboot-api/status-check.sh
+/usr/libexec/uboot-api/key-manager.sh
+/usr/libexec/uboot-api/init.sh
+/usr/libexec/uboot-api/functions.sh
+/usr/lib/lua/luci/view/uboot/main.htm
+/usr/libexec/uboot-api/api-proxy.sh
+/etc/config/uboot-router

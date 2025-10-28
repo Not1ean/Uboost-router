@@ -1,0 +1,7 @@
+crypto/seqiv.ko
+crypto/cmac.ko
+crypto/hmac.ko
+crypto/sha512_generic.ko
+crypto/crc32c_generic.ko
+crypto/drbg.ko
+crypto/jitterentropy_rng.ko

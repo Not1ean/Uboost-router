@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_log.ko := aarch64-openwrt-linux-musl-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_log.ko net/netfilter/nft_log.o net/netfilter/nft_log.mod.o;  true

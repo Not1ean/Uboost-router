@@ -1,0 +1,1 @@
+cmd_arch/mips/boot/compressed/piggy.o := mipsel-openwrt-linux-musl-objcopy --remove-section=.reginfo --add-section=.image=arch/mips/boot/compressed/vmlinux.bin.z --set-section-flags=.image=contents,alloc,load,readonly,data arch/mips/boot/compressed/dummy.o arch/mips/boot/compressed/piggy.o

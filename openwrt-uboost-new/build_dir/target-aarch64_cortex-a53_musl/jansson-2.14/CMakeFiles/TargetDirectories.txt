@@ -1,0 +1,7 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/jansson.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/jansson-2.14/CMakeFiles/install/strip.dir

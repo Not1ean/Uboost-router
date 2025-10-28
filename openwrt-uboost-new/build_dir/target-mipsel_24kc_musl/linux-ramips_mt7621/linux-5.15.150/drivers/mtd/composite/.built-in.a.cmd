@@ -1,0 +1,1 @@
+cmd_drivers/mtd/composite/built-in.a := echo >/dev/null; rm -f drivers/mtd/composite/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/mtd/composite/built-in.a drivers/mtd/composite/virt_concat.o

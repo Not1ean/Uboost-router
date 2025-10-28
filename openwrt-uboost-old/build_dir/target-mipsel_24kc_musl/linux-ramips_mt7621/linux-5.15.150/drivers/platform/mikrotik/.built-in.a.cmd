@@ -1,0 +1,1 @@
+cmd_drivers/platform/mikrotik/built-in.a := echo >/dev/null; rm -f drivers/platform/mikrotik/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/platform/mikrotik/built-in.a drivers/platform/mikrotik/routerboot.o drivers/platform/mikrotik/rb_hardconfig.o drivers/platform/mikrotik/rb_softconfig.o

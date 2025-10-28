@@ -1,0 +1,12 @@
+Package: kmod-mt7915e
+Version: 5.15.150+2023-09-11-f1e1e67d-1
+Depends: kernel (=5.15.150-1-ea516807a10d4d2bef0215534bda477f), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core, kmod-thermal
+Source: package/kernel/mt76
+SourceName: kmod-mt7915e
+License: GPLv2
+Section: kernel
+SourceDateEpoch: 1711145382
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71552
+Description:  MediaTek MT7915e wireless driver

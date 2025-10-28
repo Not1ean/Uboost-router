@@ -1,0 +1,1 @@
+cmd_arch/mips/lib/built-in.a := echo >/dev/null; rm -f arch/mips/lib/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST arch/mips/lib/built-in.a arch/mips/lib/iomap_copy.o arch/mips/lib/iomap-pci.o arch/mips/lib/dump_tlb.o arch/mips/lib/bswapsi.o arch/mips/lib/bswapdi.o arch/mips/lib/multi3.o

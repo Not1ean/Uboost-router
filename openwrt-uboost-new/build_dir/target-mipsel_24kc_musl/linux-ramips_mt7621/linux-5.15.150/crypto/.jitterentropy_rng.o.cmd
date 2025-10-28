@@ -1,0 +1,1 @@
+cmd_crypto/jitterentropy_rng.o := mipsel-openwrt-linux-musl-ld -m elf32ltsmip -z noexecstack --no-warn-rwx-segments   -r -o crypto/jitterentropy_rng.o crypto/jitterentropy.o crypto/jitterentropy-kcapi.o

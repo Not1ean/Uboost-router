@@ -1,0 +1,1 @@
+cmd_arch/mips/crypto/poly1305-mips.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o arch/mips/crypto/poly1305-mips.ko arch/mips/crypto/poly1305-mips.o arch/mips/crypto/poly1305-mips.mod.o;  make -f ./arch/mips/Makefile.postlink arch/mips/crypto/poly1305-mips.ko

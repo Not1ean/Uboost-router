@@ -1,0 +1,169 @@
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20230523, libubus20230605
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168429
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9654
+Filename: cgi-io_2022-08-10-901b0f04-21_aarch64_cortex-a53.ipk
+Size: 10302
+SHA256sum: f709aaa394420081d6ad411f815fc0d6113915953509065966f21e91f07705f2
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-sleep
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sleep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1683625271
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 24363
+Filename: coreutils-sleep_9.3-1_aarch64_cortex-a53.ipk
+Size: 25024
+SHA256sum: d3c9c7800aac3ea018b5861cb1c4f4a22359f7834cd6a564779b4162db540e51
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 9.3-1
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1683625271
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 56182
+Filename: coreutils-sort_9.3-1_aarch64_cortex-a53.ipk
+Size: 56796
+SHA256sum: 89a5ef21fc2428e407f74b3b72d9f88d4e651a81216d2457c65af3220cf05b75
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils
+Version: 9.3-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1683625271
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 96
+Filename: coreutils_9.3-1_aarch64_cortex-a53.ipk
+Size: 974
+SHA256sum: 1107bec8419781189a5da8ddfc7754151be34f8b9bc894c5e11a8f39d781bb30
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.6.0-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1706881738
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_cortex-a53
+Installed-Size: 65349
+Filename: curl_8.6.0-1_aarch64_cortex-a53.ipk
+Size: 65909
+SHA256sum: cd828330a8c94d230a848afe7d147a3f8504b3dbf1d96ac9813851a6614223b2
+Description:  A client-side URL transfer utility
+
+Package: gzip
+Version: 1.12-1
+Depends: libc
+Alternatives: 300:/bin/gunzip:/usr/libexec/gunzip-gnu, 300:/bin/gzip:/usr/libexec/gzip-gnu, 300:/bin/zcat:/usr/libexec/zcat-gnu
+Source: feeds/packages/utils/gzip
+SourceName: gzip
+License: GPL-3.0-or-later
+Section: utils
+SourceDateEpoch: 1682490524
+CPE-ID: cpe:/a:gnu:gzip
+Maintainer: Christian Beier <dontmind@freeshell.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 43786
+Filename: gzip_1.12-1_aarch64_cortex-a53.ipk
+Size: 44350
+SHA256sum: 4bb1c092d0e0be7b31d5ac7f8275691d324d024eff4d3654f62a872f5908bb06
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
+
+Package: libcurl4
+Version: 8.6.0-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1706881738
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_cortex-a53
+Installed-Size: 206762
+Filename: libcurl4_8.6.0-1_aarch64_cortex-a53.ipk
+Size: 207268
+SHA256sum: 20c03df2903c59b2d3d56f18e2cc8e4bb33f99ab37291086fa3c651f2a02c6c3
+Description:  A client-side URL transfer library
+
+Package: libnetfilter-queue1
+Version: 1.0.5-4
+Depends: libc, libmnl0, libnfnetlink0
+Provides: libnetfilter-queue
+Source: feeds/packages/libs/libnetfilter-queue
+SourceName: libnetfilter-queue
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1613865735
+ABIVersion: 1
+Architecture: aarch64_cortex-a53
+Installed-Size: 10970
+Filename: libnetfilter-queue1_1.0.5-4_aarch64_cortex-a53.ipk
+Size: 11652
+SHA256sum: 5cc4f4882fcf587ad20ebebe9f2cd36fc6a9770ef86bce2ba09a061eff0c8307
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to packets that have been queued by the kernel
+ packet filter.
+
+Package: libnghttp2-14
+Version: 1.57.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1697461136
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 73339
+Filename: libnghttp2-14_1.57.0-1_aarch64_cortex-a53.ipk
+Size: 72082
+SHA256sum: 258896d1b6fa74908e8a14ca9682f120d86c53f606cfd2b8007874ec2dde48fe
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+

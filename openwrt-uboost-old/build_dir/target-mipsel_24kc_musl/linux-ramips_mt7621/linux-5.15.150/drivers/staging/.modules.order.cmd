@@ -1,0 +1,1 @@
+cmd_drivers/staging/modules.order := {   cat drivers/staging/media/modules.order;   cat drivers/staging/mt7621-dma/modules.order;   cat drivers/staging/mt7621-dts/modules.order; :; } | awk '!x[$$0]++' - > drivers/staging/modules.order

@@ -1,0 +1,8 @@
+/usr/lib/libubus.so.20230605
+/usr/lib/libubus.so
+/usr/bin/ubus
+/usr/sbin/ubusd
+/usr/include/ubusmsg.h
+/usr/include/ubus_common.h
+/usr/include/libubus.h
+/usr/lib/lua/ubus.so

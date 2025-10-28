@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/aquantia/aquantia.mod := { echo  drivers/net/phy/aquantia/aquantia_main.o drivers/net/phy/aquantia/aquantia_firmware.o drivers/net/phy/aquantia/aquantia_hwmon.o;  echo; } > drivers/net/phy/aquantia/aquantia.mod

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_flow_table.o := mipsel-openwrt-linux-musl-ld -m elf32ltsmip -z noexecstack --no-warn-rwx-segments   -r -o net/netfilter/nf_flow_table.o net/netfilter/nf_flow_table_core.o net/netfilter/nf_flow_table_ip.o net/netfilter/nf_flow_table_offload.o

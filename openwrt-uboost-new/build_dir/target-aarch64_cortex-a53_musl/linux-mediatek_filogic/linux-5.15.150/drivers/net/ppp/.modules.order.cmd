@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/modules.order := {   echo drivers/net/ppp/ppp_generic.ko;   echo drivers/net/ppp/ppp_async.ko;   echo drivers/net/ppp/pppox.ko;   echo drivers/net/ppp/pppoe.ko; :; } | awk '!x[$$0]++' - > drivers/net/ppp/modules.order

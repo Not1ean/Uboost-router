@@ -1,0 +1,7 @@
+config vpn 'settings'
+    option subscription_url 'https://uboost.com/pricing'
+    option enabled '1'
+
+config ui 'customization'
+    option button_text 'Subscribe for VPN'
+    option button_color 'positive'

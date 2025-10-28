@@ -1,0 +1,11 @@
+Package: kmod-nft-compat
+Version: 5.15.150-1
+Depends: kernel (=5.15.150-1-ea516807a10d4d2bef0215534bda477f), kmod-nft-core, kmod-nf-ipt
+Source: package/kernel/linux
+SourceName: kmod-nft-compat
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1709893690
+Architecture: aarch64_cortex-a53
+Installed-Size: 5025
+Description:  Netfilter nf_tables compat support

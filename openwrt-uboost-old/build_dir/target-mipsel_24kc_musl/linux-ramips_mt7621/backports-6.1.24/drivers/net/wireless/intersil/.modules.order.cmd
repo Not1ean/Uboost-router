@@ -1,0 +1,1 @@
+cmd_/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/backports-6.1.24/drivers/net/wireless/intersil/modules.order := {  :; } | awk '!x[$$0]++' - > /home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/backports-6.1.24/drivers/net/wireless/intersil/modules.order

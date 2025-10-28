@@ -1,0 +1,8 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/uclient.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/uclient-fetch.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/uclient-2023-04-13-007d9454/CMakeFiles/install/strip.dir

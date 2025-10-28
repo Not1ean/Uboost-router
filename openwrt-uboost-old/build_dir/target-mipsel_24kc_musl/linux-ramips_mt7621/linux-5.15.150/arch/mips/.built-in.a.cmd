@@ -1,0 +1,1 @@
+cmd_arch/mips/built-in.a := echo >/dev/null; rm -f arch/mips/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST arch/mips/built-in.a arch/mips/ralink/built-in.a arch/mips/kernel/built-in.a arch/mips/mm/built-in.a arch/mips/net/built-in.a arch/mips/vdso/built-in.a

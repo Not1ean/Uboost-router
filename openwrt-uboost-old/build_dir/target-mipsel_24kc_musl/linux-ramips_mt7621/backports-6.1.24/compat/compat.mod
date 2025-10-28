@@ -1,0 +1,2 @@
+/home/notlean/openwrt-uboost/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/backports-6.1.24/compat/main.o
+

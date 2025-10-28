@@ -1,0 +1,15 @@
+libblobmsg_json.so.20230523
+libc.so
+libgcc_s.so.1
+libjson-c.so.5
+libjson-c.so.5.2.0
+libmbedcrypto.so.2.28.7
+libmbedcrypto.so.7
+libmbedtls.so.14
+libmbedtls.so.2.28.7
+libmbedx509.so.1
+libmbedx509.so.2.28.7
+libnl-tiny.so.1
+libubox.so.20230523
+libubus.so.20230605
+libucode.so.20230711

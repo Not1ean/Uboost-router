@@ -1,0 +1,1 @@
+cmd_drivers/irqchip/built-in.a := echo >/dev/null; rm -f drivers/irqchip/built-in.a; mipsel-openwrt-linux-musl-ar cDPrST drivers/irqchip/built-in.a drivers/irqchip/irqchip.o drivers/irqchip/irq-mips-cpu.o drivers/irqchip/irq-mips-gic.o

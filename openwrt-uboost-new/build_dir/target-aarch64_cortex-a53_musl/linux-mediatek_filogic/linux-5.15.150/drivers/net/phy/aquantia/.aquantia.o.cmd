@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/aquantia/aquantia.o := aarch64-openwrt-linux-musl-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/phy/aquantia/aquantia.o drivers/net/phy/aquantia/aquantia_main.o drivers/net/phy/aquantia/aquantia_firmware.o drivers/net/phy/aquantia/aquantia_hwmon.o

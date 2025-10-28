@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/pppoe.ko := mipsel-openwrt-linux-musl-ld -r -m elf32ltsmip -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ppp/pppoe.ko drivers/net/ppp/pppoe.o drivers/net/ppp/pppoe.mod.o;  make -f ./arch/mips/Makefile.postlink drivers/net/ppp/pppoe.ko

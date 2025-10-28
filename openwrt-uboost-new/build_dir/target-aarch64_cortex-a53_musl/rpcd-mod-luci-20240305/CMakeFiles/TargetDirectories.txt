@@ -1,0 +1,7 @@
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/rpcd-mod-luci.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/edit_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/rebuild_cache.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/list_install_components.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/install.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/install/local.dir
+/home/notlean/openwrt-uboost/build_dir/target-aarch64_cortex-a53_musl/rpcd-mod-luci-20240305/CMakeFiles/install/strip.dir
